@@ -1,0 +1,128 @@
+<!-- about section -->
+<section id="about" class="yb-section">
+    <div class="yb-my-profile">
+      <div class="uk-container">
+        <div class="uk-grid-collapse uk-child-width-expand@m" data-uk-grid>
+          <!-- <div>
+            <div class="yb-my-profile-img uk-background-cover uk-background-norepeat uk-background-top-center" data-src="src/img/profile.jpg" data-uk-img data-uk-lightbox>
+              <a href="https://www.youtube.com/watch?v=uQBL7pSAXR8" class="yb-my-intro">
+                <span data-uk-icon="icon: play; ratio: 2"></span>
+                <span class="yb-my-intro-text">Introduction</span>
+              </a>
+            </div>
+          </div> -->
+          <div>
+            <div class="yb-my-profile-desc">
+              <div class="yb-section-point-wrapper">
+                <div class="yb-section-point right">
+                  <sup>{{ section.settings.section-number }}</sup>
+                  <span>{{ section.settings.section-title }}</span>
+                </div>
+              </div>
+              <div class="yb-my-profile-desc-top">
+                <h2 class="yb-section-title">{{ section.settings.section-heading }}</h2>
+                <p>{{ section.settings.section-content }}</p>
+              </div>
+              <!-- Contact Information -->
+              {% if section.blocks  != blank %}
+                <div class="yb-my-profile-desc-bottom yb-bg-soft">
+                    <ul class="yb-my-profile-desc-info uk-list">
+                        {% for block in section.blocks %}
+                            <li>
+                                <span>{{ block.settings.contact-type}}</span> : {{ block.settings.contact-text }}
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+              {% endif %}
+              <!-- End Contact Information -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="yb-border-top yb-border-bottom ">
+      <div class="uk-container">
+       {% render 'about-services' %}
+      </div>
+    </div>
+</section>
+<!-- end about section -->
+
+{% schema %}
+{
+  "name": "About",
+  "settings" : [
+    {
+      "type": "text",
+      "id": "section-number",
+      "label": "Section Number",
+      "default": "02"
+    },
+    {
+      "type": "text",
+      "id": "section-title",
+      "label": "Section Title",
+      "default": "about"
+    },
+    {
+      "type": "textarea",
+      "id": "section-heading",
+      "label": "Section Heading",
+      "default": "Hello There!"
+    },
+    {
+      "type": "textarea",
+      "id": "section-content",
+      "label": "Section Content",
+      "default": "Write Something here!"
+    },
+    {
+        "type": "header",
+        "content": "About Services"
+    },
+    {
+        "type": "text",
+        "id": "service-mobile",
+        "label": "Service Text Mobile",
+        "default": "Mobile App Developer"
+    },
+    {
+        "type": "text",
+        "id": "service-theme",
+        "label": "Service Text Theme",
+        "default": "Shopify App | Theme Developer"
+    },
+    {
+        "type": "text",
+        "id": "service-web",
+        "label": "Service Text Web",
+        "default": "Full Stack Web Developer"
+    },
+    {
+        "type": "text",
+        "id": "service-tester",
+        "label": "Service Text Tester",
+        "default": "Web Tester"
+    }
+  ],
+  "blocks": [
+    {
+        "name": "Contact Information",
+        "type": "text",
+        "settings": [
+            {
+                "type": "text",
+                "id": "contact-type",
+                "label": "Contact Info"
+            },
+            {
+                "type": "text",
+                "id": "contact-text",
+                "label": "Contact Text"
+            }
+        ]
+    }
+  ]
+}
+{% endschema %}

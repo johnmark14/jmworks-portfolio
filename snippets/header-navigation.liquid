@@ -1,0 +1,32 @@
+<div class="yb-menu-toggle-wrapper" id="menucollapse">
+    {% if section.settings.nav-menu %}
+        <div class="uk-navbar-center">
+            <ul class="uk-navbar-nav" data-uk-scrollspy-nav="closest: li; scroll: false; offset: 79 ">
+                {% for link in section.settings.nav-menu.links %}
+                    <li>
+                        <a class="yb-inner-link" href="{{ link.url }}"> {{ link.title }} </a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+    {% endif %}
+    <div class="uk-navbar-right">
+      <ul class="uk-navbar-nav yb-social-icons">
+        <li>
+          <a href="#">
+            <span class="uk-icon " data-uk-icon="icon: facebook"></span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="uk-icon" data-uk-icon="icon: instagram"></span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="uk-icon" data-uk-icon="icon: twitter"></span>
+          </a>
+        </li>
+      </ul>
+    </div>
+</div>
