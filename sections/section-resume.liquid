@@ -1,0 +1,250 @@
+<!-- resume section -->
+<section class="yb-section" id="resume">
+  <div class="yb-section-point-wrapper">
+    <div class="uk-container">
+      <div class="yb-section-point">
+        <sup>{{ section.settings.section-number }}</sup>
+        <span>{{ section.settings.section-title }}</span>
+      </div>
+    </div>
+  </div>
+  <div class="uk-container">
+    <div data-uk-grid class="uk-grid-divider">
+      {% render 'resume-left-nav' %}
+      <div class="uk-width-expand@s yb-section-padding-top">
+        <div>{% render 'resume-education' %}</div>
+        <div>{% render 'resume-experience' %}</div>
+        <div>
+          <h2 class="yb-section-title uk-heading-line" id="skills">
+            <span>Skills</span>
+          </h2>
+          <div class="yb-margin-top-1 yb-margin-bottom-2">
+            {% render 'resume-skills' %}
+            <div data-uk-grid class="uk-child-width-1-2">
+              <div>
+                <h4 class="yb-section-title">Soft Skills</h4>
+                <ul class="uk-list uk-list-large uk-list-divider">
+                  <li>
+                    <div class="yb-resume-skill-item">
+                      <h5>
+                        Problem Solving
+                        <small class="uk-float-right uk-text-bold uk-visible@s"
+                          >100%</small
+                        >
+                      </h5>
+                      <progress
+                        class="uk-progress"
+                        value="100"
+                        max="100"
+                      ></progress>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="yb-resume-skill-item">
+                      <h5>
+                        Creativity
+                        <small class="uk-float-right uk-text-bold uk-visible@s"
+                          >90%</small
+                        >
+                      </h5>
+                      <progress
+                        class="uk-progress"
+                        value="90"
+                        max="100"
+                      ></progress>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="yb-resume-skill-item">
+                      <h5>
+                        Time Management
+                        <small class="uk-float-right uk-text-bold uk-visible@s"
+                          >80%</small
+                        >
+                      </h5>
+                      <progress
+                        class="uk-progress"
+                        value="80"
+                        max="100"
+                      ></progress>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="yb-resume-skill-item">
+                      <h5>
+                        Team Work
+                        <small class="uk-float-right uk-text-bold uk-visible@s"
+                          >90%</small
+                        >
+                      </h5>
+                      <progress
+                        class="uk-progress"
+                        value="90"
+                        max="100"
+                      ></progress>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <h4 class="yb-section-title">Language</h4>
+                <ul class="uk-list uk-list-large uk-list-divider">
+                  <li>
+                    <div class="yb-resume-skill-item">
+                      <h5>
+                        English
+                        <small class="uk-float-right uk-text-bold uk-visible@s"
+                          >100%</small
+                        >
+                      </h5>
+                      <progress
+                        class="uk-progress"
+                        value="100"
+                        max="100"
+                      ></progress>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="yb-resume-skill-item">
+                      <h5>
+                        French
+                        <small class="uk-float-right uk-text-bold uk-visible@s"
+                          >70%</small
+                        >
+                      </h5>
+                      <progress
+                        class="uk-progress"
+                        value="70"
+                        max="100"
+                      ></progress>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="yb-resume-skill-item">
+                      <h5>
+                        Chinese
+                        <small class="uk-float-right uk-text-bold uk-visible@s"
+                          >80%</small
+                        >
+                      </h5>
+                      <progress
+                        class="uk-progress"
+                        value="80"
+                        max="100"
+                      ></progress>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="
+      yb-section yb-section-padding
+      uk-background-cover uk-background-fixed
+    "
+    data-uk-parallax="bgy: -200"
+    data-src="src/img/bg/bg2.jpg"
+    data-uk-img
+  >
+    <div class="yb-overlay-primary uk-position-cover"></div>
+    <div class="uk-container uk-text-center uk-position-relative">
+      <div data-uk-grid class="uk-grid-small uk-flex-center">
+        <div>
+          <a href="#" class="yb-btn uk-button uk-button-primary uk-button-large"
+            >Download CV</a
+          >
+        </div>
+        <div>
+          <a
+            href="#contact"
+            class="
+              yb-inner-link yb-btn
+              uk-button uk-button-danger uk-button-large
+            "
+            >Hire Me</a
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- end resume section -->
+
+{% schema %}
+{
+  "name": "Resume",
+  "settings" : [
+    {
+      "type": "text",
+      "id": "section-number",
+      "label": "Section Number",
+      "default": "03"
+    },
+    {
+      "type": "text",
+      "id": "section-title",
+      "label": "Section Title",
+      "default": "resume"
+    }
+  ],
+  "blocks": [
+    {
+        "name": "Education",
+        "type": "text",
+        "settings": [
+          {
+            "type": "text",
+            "id": "education-year",
+            "label": "Education year"
+          },
+          {
+            "type": "text",
+            "id": "education-title",
+            "label": "Education Title"
+          },
+          {
+            "type": "text",
+            "id": "education-sub-title",
+            "label": "Education Sub-Title"
+          },
+          {
+            "type": "textarea",
+            "id": "education-description",
+            "label": "Education Description"
+          }
+        ]
+    },
+    {
+        "name": "Experience",
+        "type": "textarea",
+        "settings": [
+          {
+            "type": "text",
+            "id": "experience-year",
+            "label": "Experience year"
+          },
+          {
+            "type": "text",
+            "id": "experience-title",
+            "label": "Experience Title"
+          },
+          {
+            "type": "text",
+            "id": "experience-sub-title",
+            "label": "Experience Sub-Title"
+          },
+          {
+            "type": "textarea",
+            "id": "experience-description",
+            "label": "Experience Description"
+          }
+        ]
+    }
+  ]
+}
+{% endschema %}
