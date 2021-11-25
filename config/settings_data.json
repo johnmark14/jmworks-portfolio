@@ -99,8 +99,8 @@
       "sub-section-resume-skills": {
         "type": "sub-section-resume-skills",
         "settings": {
-          "section-id": "",
-          "section-title": "",
+          "section-id": "skills",
+          "section-title": "Skills",
           "problem-solving-range": 50,
           "creativity-range": 50,
           "time-management-range": 50,
