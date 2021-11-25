@@ -93,6 +93,34 @@
       },
       "sub-section-resume-nav-left": {
         "type": "sub-section-resume-nav-left",
+        "blocks": {
+          "7c88bdec-a32d-4245-b64f-8df5b63b5b8b": {
+            "type": "text",
+            "settings": {
+              "link-title": "Education",
+              "link-link": "education"
+            }
+          },
+          "f6b2483d-1fe2-4b43-a0a8-82b259fb01b8": {
+            "type": "text",
+            "settings": {
+              "link-title": "Eperience",
+              "link-link": "experience"
+            }
+          },
+          "748f9c1c-8ae2-4ffe-97b6-785fe72e30c1": {
+            "type": "text",
+            "settings": {
+              "link-title": "Skills",
+              "link-link": "skills"
+            }
+          }
+        },
+        "block_order": [
+          "7c88bdec-a32d-4245-b64f-8df5b63b5b8b",
+          "f6b2483d-1fe2-4b43-a0a8-82b259fb01b8",
+          "748f9c1c-8ae2-4ffe-97b6-785fe72e30c1"
+        ],
         "settings": {
         }
       },
