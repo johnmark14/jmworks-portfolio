@@ -154,13 +154,21 @@
               "skill-title": "HTML 5",
               "skill-range": 95
             }
+          },
+          "764d9d98-b137-4424-880f-36ff174b4f8e": {
+            "type": "skills",
+            "settings": {
+              "skill-title": "Shopify Liquid",
+              "skill-range": 100
+            }
           }
         },
         "block_order": [
           "ce2541ff-c82e-4a24-b202-a06caa51d8b4",
           "ee24031e-d036-4cee-a6ae-d6f9856be991",
           "c1de784f-2f1f-4ae9-9bcd-bfa8ea08c5f6",
-          "babcd3a3-2908-4613-ac1f-09273dbdae8a"
+          "babcd3a3-2908-4613-ac1f-09273dbdae8a",
+          "764d9d98-b137-4424-880f-36ff174b4f8e"
         ],
         "settings": {
           "section-id": "skills",
