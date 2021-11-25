@@ -52,13 +52,6 @@
           "service-tester": "Web Tester"
         }
       },
-      "section-resume": {
-        "type": "section-resume",
-        "settings": {
-          "section-number": "03",
-          "section-title": "resume"
-        }
-      },
       "footer": {
         "type": "footer",
         "blocks": {
@@ -89,6 +82,51 @@
           "enable_country_selector": true,
           "enable_language_selector": true,
           "payment_enable": true
+        }
+      },
+      "sub-section-resume-number-title": {
+        "type": "sub-section-resume-number-title",
+        "settings": {
+          "section-number": "03",
+          "section-title": "resume"
+        }
+      },
+      "sub-section-resume-nav-left": {
+        "type": "sub-section-resume-nav-left",
+        "settings": {
+        }
+      },
+      "sub-section-resume-self-info": {
+        "type": "sub-section-resume-self-info",
+        "blocks": {
+          "15b45d7a-2379-4f56-8e8c-5e380cc07162": {
+            "type": "text",
+            "settings": {
+              "info-year": "",
+              "info-title": "",
+              "info-sub-title": "",
+              "info-desc": ""
+            }
+          }
+        },
+        "block_order": [
+          "15b45d7a-2379-4f56-8e8c-5e380cc07162"
+        ],
+        "settings": {
+          "section-id": "education",
+          "section-title": "Education"
+        }
+      },
+      "sub-section-resume-skills": {
+        "type": "sub-section-resume-skills",
+        "settings": {
+          "section-id": "",
+          "section-title": "",
+          "problem-solving-range": 50,
+          "creativity-range": 50,
+          "time-management-range": 50,
+          "team-work-range": 50,
+          "english-range": 50
         }
       }
     },
