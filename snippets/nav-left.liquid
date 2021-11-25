@@ -1,0 +1,14 @@
+{% if section.blocks != blank %}
+    <div data-uk-sticky="bottom: {{-section.settings.section-link-}}-nav-wrapper; offset: 100; media: 650">
+        <ul class="yb-nav-left uk-tab-left uk-tab" data-uk-scrollspy-nav="closest: li; scroll: false; offset: 120">
+            {% for block in section.blocks %}
+                <li {% if forloop.index == 1%}class="uk-active"{% endif %}>
+                    <a href="{{ block.settings.link-link}}" class="yb-inner-link" data-offset="120">
+                    <span data-uk-icon="minus"></span>
+                        {{ block.settings.link-title }}
+                    </a>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+{% endif %}
