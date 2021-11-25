@@ -1,0 +1,202 @@
+<div id="{{ section.settings.section-id}}">
+    <h2 class="yb-section-title uk-heading-line "><span>{{ section.settings.section-title}}</span></h2>
+    <div class="yb-margin-top-1 yb-margin-bottom-2">
+        <div data-uk-grid class="uk-child-width-1-2@s uk-child-width-1-3@m uk-child-width-1-1 uk-grid-medium">
+            {% for block in section.blocks %}
+                {% case block.type %}
+                {% when 'shopify' %}
+                    <!-- Card 1 -->
+                    <div>
+                        <div class="yb-pricing-item">
+                            <div class="uk-card">
+                                <div class="uk-card-header">
+                                    <h4>{{ block.settings.card-title }}</h4>
+                                    <div class="yb-pricing-item-price">
+                                        <strong>$ {{ block.settings.card-rate }}</strong>
+                                        <span>/h</span>
+                                    </div>
+                                </div>
+                                <div class="uk-card-body">
+                                    <small class="uk-text-muted">Details:</small>
+                                    <ul class="uk-list  uk-list-divider uk-text-small">
+                                        <li>
+                                            <span class="uk-float-right uk-text-muted" data-uk-icon="check"></span>
+                                            HTML5
+                                        </li>
+                                        <li>
+                                            <span class="uk-float-right uk-text-muted" data-uk-icon="check"></span>
+                                            CSS3
+                                        </li>
+                                        <li>
+                                            <span class="uk-float-right uk-text-muted" data-uk-icon="check"></span>
+                                            Angular jS
+                                        </li>
+                                        <li>
+                                            <span class="uk-float-right uk-text-muted" data-uk-icon="check"></span>
+                                            Vue jS
+                                        </li>
+                                        <li>
+                                            <span class="uk-float-right uk-text-muted" data-uk-icon="check"></span>
+                                            React jS
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Card 1 -->
+                {% when 'front' %}
+                    <!-- Card 2 -->
+                    <div>
+                        <div class="yb-pricing-item">
+                            <div class="uk-card">
+                                <div class="uk-card-header">
+                                    <h4>{{ block.settings.card-title }}</h4>
+                                    <div class="yb-pricing-item-price">
+                                        <strong>$ {{ block.settings.card-rate }}</strong>
+                                        <span>/h</span>
+                                    </div>
+                                </div>
+                                <div class="uk-card-body">
+                                    <small class="uk-text-muted">Details:</small>
+                                    <ul class="uk-list  uk-list-divider uk-text-small">
+                                        <li>
+                                            <span class="uk-float-right uk-text-muted" data-uk-icon="check"></span>
+                                            Ruby on Rails
+                                        </li>
+                                        <li>
+                                            <span class="uk-float-right uk-text-muted" data-uk-icon="check"></span>
+                                            Laravel
+                                        </li>
+                                        <li>
+                                            <span class="uk-float-right uk-text-muted" data-uk-icon="check"></span>
+                                            Go
+                                        </li>
+                                        <li>
+                                            <span class="uk-float-right uk-text-muted" data-uk-icon="check"></span>
+                                            Node Js
+                                        </li>
+                                        <li>
+                                            <span class="uk-float-right uk-text-muted" data-uk-icon="check"></span>
+                                            Phoenix Elixir
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Card 2 -->
+                {% when 'full' %}
+                    <!-- Card 3 -->
+                    <div>
+                        <div class="yb-pricing-item">
+                            <div class="uk-card">
+                                <div class="uk-card-header">
+                                    <h4>{{ block.settings.card-title }}</h4>
+                                    <div class="yb-pricing-item-price">
+                                        <strong>$ {{ block.settings.card-rate }}</strong>
+                                        <span>/h</span>
+                                    </div>
+                                </div>
+                                <div class="uk-card-body">
+                                    <small class="uk-text-muted">Details:</small>
+                                    <ul class="uk-list  uk-list-divider uk-text-small">
+                                        <li>
+                                            <span class="uk-float-right uk-text-muted" data-uk-icon="check"></span>
+                                            <strong>Included</strong> Front-End Developer
+                                        </li>
+                                        <li>
+                                            <span class="uk-float-right uk-text-muted" data-uk-icon="check"></span>
+                                            <strong>Included</strong> Back-End Developer
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                {% else %}
+                    
+                {% endcase %}
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+{% schema %}
+{
+    "name": "Pricing",
+    "settings": [
+        {
+            "type": "text",
+            "id": "section-id",
+            "label": "Section ID",
+            "default": "pricing"
+        },
+        {
+            "type": "text",
+            "id": "section-title",
+            "label": "Section Title",
+            "default": "Pricing"
+        }
+    ],
+    "blocks": [
+        {
+            "name": "Shopify Dev",
+            "type": "shopify",
+            "limit": 1,
+            "settings": [
+                {
+                    "type": "text",
+                    "id": "card-title",
+                    "label": "Card Title",
+                    "default": "Front-End Developer"
+                },
+                {
+                    "type": "number",
+                    "id": "card-rate",
+                    "label": "Rate",
+                    "default": 10
+                }
+            ]
+        },
+        {
+            "name": "Front End Dev",
+            "type": "front",
+            "limit": 1,
+            "settings": [
+                {
+                    "type": "text",
+                    "id": "card-title",
+                    "label": "Card Title",
+                    "default": "Front-End Developer"
+                },
+                {
+                    "type": "number",
+                    "id": "card-rate",
+                    "label": "Rate",
+                    "default": 10
+                }
+            ]
+        },
+        {
+            "name": "Full Stack Dev",
+            "type": "full",
+            "limit": 1,
+            "settings": [
+                {
+                    "type": "text",
+                    "id": "card-title",
+                    "label": "Card Title",
+                    "default": "Front-End Developer"
+                },
+                {
+                    "type": "number",
+                    "id": "card-rate",
+                    "label": "Rate",
+                    "default": 10
+                }
+            ]
+        }
+    ]
+}
+{% endschema %}
