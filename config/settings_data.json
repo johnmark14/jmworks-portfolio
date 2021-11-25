@@ -161,6 +161,13 @@
               "skill-title": "Shopify Liquid",
               "skill-range": 100
             }
+          },
+          "ce9b4256-65d4-43b0-95d4-5e06eaf8d2ff": {
+            "type": "skills",
+            "settings": {
+              "skill-title": "Shopify Theme Development",
+              "skill-range": 95
+            }
           }
         },
         "block_order": [
@@ -168,7 +175,8 @@
           "ee24031e-d036-4cee-a6ae-d6f9856be991",
           "c1de784f-2f1f-4ae9-9bcd-bfa8ea08c5f6",
           "babcd3a3-2908-4613-ac1f-09273dbdae8a",
-          "764d9d98-b137-4424-880f-36ff174b4f8e"
+          "764d9d98-b137-4424-880f-36ff174b4f8e",
+          "ce9b4256-65d4-43b0-95d4-5e06eaf8d2ff"
         ],
         "settings": {
           "section-id": "skills",
