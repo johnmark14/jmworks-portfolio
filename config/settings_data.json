@@ -126,6 +126,34 @@
       },
       "sub-section-resume-skills": {
         "type": "sub-section-resume-skills",
+        "blocks": {
+          "ce2541ff-c82e-4a24-b202-a06caa51d8b4": {
+            "type": "skills",
+            "settings": {
+              "skill-title": "Vue.js",
+              "skill-range": 98
+            }
+          },
+          "ee24031e-d036-4cee-a6ae-d6f9856be991": {
+            "type": "skills",
+            "settings": {
+              "skill-title": "JavaScript",
+              "skill-range": 96
+            }
+          },
+          "c1de784f-2f1f-4ae9-9bcd-bfa8ea08c5f6": {
+            "type": "skills",
+            "settings": {
+              "skill-title": "Node.js",
+              "skill-range": 90
+            }
+          }
+        },
+        "block_order": [
+          "ce2541ff-c82e-4a24-b202-a06caa51d8b4",
+          "ee24031e-d036-4cee-a6ae-d6f9856be991",
+          "c1de784f-2f1f-4ae9-9bcd-bfa8ea08c5f6"
+        ],
         "settings": {
           "section-id": "skills",
           "section-title": "Skills",
