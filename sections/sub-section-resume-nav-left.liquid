@@ -1,5 +1,5 @@
 {% if section.blocks != blank %}
-    <div data-uk-sticky="bottom: #resume-nav-wrapper; offset: 100; media: 650">
+    <div data-uk-sticky="bottom: {{-section.settings.section-link-}}-nav-wrapper; offset: 100; media: 650">
         <ul class="yb-nav-left uk-tab-left uk-tab" data-uk-scrollspy-nav="closest: li; scroll: false; offset: 120">
             {% for block in section.blocks %}
                 <li {% if forloop.index == 1%}class="uk-active"{% endif %}>
@@ -15,6 +15,13 @@
 {% schema %}
 {
     "name": "Resume Nav Left",
+    "settings": [
+        {
+            "type": "url",
+            "id": "this-link",
+            "label": "section-link"  
+        }
+    ],
     "blocks": [
         {
             "name": "Resume Links",

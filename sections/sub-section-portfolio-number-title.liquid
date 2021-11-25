@@ -1,0 +1,28 @@
+<div class="yb-section-point-wrapper">
+    <div class="uk-container">
+      <div class="yb-section-point">
+        <sup>{{ section.settings.section-number }}</sup>
+        <span>{{ section.settings.section-title }}</span>
+      </div>
+    </div>
+</div>
+
+{% schema %}
+{
+    "name": "Portfolio Section Title",
+    "settings": [
+        {
+            "type": "text",
+            "id": "section-number",
+            "label": "Section Title",
+            "default": "04"
+        },
+        {
+            "type": "text",
+            "id": "section-title",
+            "label": "Section Title",
+            "default": "Portfolio"
+        }
+    ]
+}
+{% endschema %}
