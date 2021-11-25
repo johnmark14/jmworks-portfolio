@@ -138,6 +138,40 @@
       },
       "sub-section-resume-education-info": {
         "type": "sub-section-resume-education-info",
+        "blocks": {
+          "bcaa2da2-00fa-4f57-bf3d-df2c92636c33": {
+            "type": "text",
+            "settings": {
+              "info-year": "2021",
+              "info-title": "Data Associate",
+              "info-sub-title": "SPARTA Philippines",
+              "info-desc": ""
+            }
+          },
+          "fa15f85f-9c8a-45c9-9b00-a61df2fa959e": {
+            "type": "text",
+            "settings": {
+              "info-year": "2016 - 2020",
+              "info-title": "Masters in Information Technology",
+              "info-sub-title": "University of the Cordilleras",
+              "info-desc": ""
+            }
+          },
+          "4477ae31-c102-478a-81a1-1a0a6e15e20a": {
+            "type": "text",
+            "settings": {
+              "info-year": "2011 - 2015",
+              "info-title": "Bachelor of Science in Information Technology",
+              "info-sub-title": "ACLC College Sorsogon",
+              "info-desc": ""
+            }
+          }
+        },
+        "block_order": [
+          "bcaa2da2-00fa-4f57-bf3d-df2c92636c33",
+          "fa15f85f-9c8a-45c9-9b00-a61df2fa959e",
+          "4477ae31-c102-478a-81a1-1a0a6e15e20a"
+        ],
         "settings": {
           "section-id": "education",
           "section-title": "Education"
@@ -145,6 +179,70 @@
       },
       "sub-section-resume-experience-info": {
         "type": "sub-section-resume-experience-info",
+        "blocks": {
+          "6623f7d2-409d-4f8b-8256-216bfc8558cf": {
+            "type": "text",
+            "settings": {
+              "info-year": "2021 - Present",
+              "info-title": "Shopify Theme Developer | Web Developer",
+              "info-sub-title": "Thermi Brands",
+              "info-desc": ""
+            }
+          },
+          "4f6a00d9-9422-40e3-a604-0bb2fca444fc": {
+            "type": "text",
+            "settings": {
+              "info-year": "2020 - Present",
+              "info-title": "Instructor 1",
+              "info-sub-title": "Sorsogon State University - Bulan Campus",
+              "info-desc": ""
+            }
+          },
+          "d0c86efd-72c9-4176-b2ff-4ac9f2520205": {
+            "type": "text",
+            "settings": {
+              "info-year": "2021",
+              "info-title": "Web Developer",
+              "info-sub-title": "Quality Testing Lab (qtllab.com)",
+              "info-desc": ""
+            }
+          },
+          "fbd44a5f-4348-4b34-adc8-576092570451": {
+            "type": "text",
+            "settings": {
+              "info-year": "2020 - 2021",
+              "info-title": "Shopify Theme Developer",
+              "info-sub-title": "Lillypearlco",
+              "info-desc": ""
+            }
+          },
+          "989e2f30-5267-4a8d-a2a8-c35e0bbd5e4e": {
+            "type": "text",
+            "settings": {
+              "info-year": "2020",
+              "info-title": "Shopify Developer | Web Developer",
+              "info-sub-title": "HiJoey (hijoey.co)",
+              "info-desc": ""
+            }
+          },
+          "5cfd505d-664f-4557-9614-d2dc96e93ddd": {
+            "type": "text",
+            "settings": {
+              "info-year": "2015 - 2020",
+              "info-title": "College Instructor",
+              "info-sub-title": "ACLC College Sorsogon",
+              "info-desc": ""
+            }
+          }
+        },
+        "block_order": [
+          "6623f7d2-409d-4f8b-8256-216bfc8558cf",
+          "4f6a00d9-9422-40e3-a604-0bb2fca444fc",
+          "d0c86efd-72c9-4176-b2ff-4ac9f2520205",
+          "fbd44a5f-4348-4b34-adc8-576092570451",
+          "989e2f30-5267-4a8d-a2a8-c35e0bbd5e4e",
+          "5cfd505d-664f-4557-9614-d2dc96e93ddd"
+        ],
         "settings": {
           "section-id": "experience",
           "section-title": "Experience"
