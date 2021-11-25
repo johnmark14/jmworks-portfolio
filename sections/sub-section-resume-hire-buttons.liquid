@@ -1,0 +1,64 @@
+<div class="yb-section yb-section-padding uk-background-cover uk-background-fixed " data-uk-parallax="bgy: -200" data-src="src/img/bg/bg2.jpg" data-uk-img>
+    <div class="yb-overlay-primary uk-position-cover"></div>
+    <div class="uk-container uk-text-center uk-position-relative">
+      <div data-uk-grid class="uk-grid-small  uk-flex-center">
+          {% for block in section.blocks %}
+            {% case block.type %}
+                {% when "cv" %}
+                    <div>
+                        <a href="{{ block.settings.btn-url }}" class=" yb-btn uk-button uk-button-primary uk-button-large">{{ block.settings.btn-text}}</a>
+                    </div>
+                    {% when "hire"%}
+                        <div>
+                            <a href="{{ block.settings.btn-url }}" class="yb-inner-link yb-btn uk-button uk-button-danger  uk-button-large">{{ block.settings.btn-text }}</a>
+                        </div>
+                {% else %}
+                    <!-- Nothing -->
+            {% endcase %}
+          {% endfor %}
+      </div>
+    </div>
+</div>
+{% schema %}
+{
+    "name": "Resume Buttons",
+    "blocks": [
+        {
+            "name": "Download CV",
+            "type": "cv",
+            "limit": 1,
+            "settings": [
+                {
+                    "type": "text",
+                    "id": "btn-text",
+                    "label": "Button Text",
+                    "default": "Download CV"
+                },
+                {
+                    "type": "url",
+                    "id": "btn-url",
+                    "label": "Button URL"
+                }
+            ]
+        },
+        {
+            "name": "Hire Me",
+            "type": "hire",
+            "limit": 1,
+            "settings": [
+                {
+                    "type": "text",
+                    "id": "btn-text",
+                    "label": "Button Text",
+                    "default": "Hire Me"
+                },
+                {
+                    "type": "url",
+                    "id": "btn-url",
+                    "label": "Button URL"
+                }
+            ]
+        }
+    ]
+}
+{% endschema %}
