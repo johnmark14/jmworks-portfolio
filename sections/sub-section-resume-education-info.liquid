@@ -1,0 +1,49 @@
+<div>
+    {% render 'resume-self-info' %}
+</div>
+
+{% schema %}
+{
+    "name": "Resume Education Info",
+    "settings": [
+        {
+            "type": "text",
+            "id": "section-id",
+            "label": "Section ID"
+        },    
+        {
+            "type": "text",
+            "id": "section-title",
+            "label": "Section Title"
+        }
+    ],
+    "blocks": [
+        {
+            "name": "Information",
+            "type": "text",
+            "settings": [
+                {
+                    "type": "text",
+                    "id": "info-year",
+                    "label": "Info Year"
+                },
+                {
+                    "type": "text",
+                    "id": "info-title",
+                    "label": "Info Title"
+                },
+                {
+                    "type": "text",
+                    "id": "info-sub-title",
+                    "label": "Info Sub-Title"
+                },
+                {
+                    "type": "textarea",
+                    "id": "info-desc",
+                    "label": "Info Description"
+                }
+            ]
+        }
+    ]
+}
+{% endschema %}
