@@ -130,6 +130,7 @@
           "ce2541ff-c82e-4a24-b202-a06caa51d8b4": {
             "type": "skills",
             "settings": {
+              "skill-bg": true,
               "skill-title": "Vue.js",
               "skill-range": 98
             }
@@ -137,6 +138,7 @@
           "ee24031e-d036-4cee-a6ae-d6f9856be991": {
             "type": "skills",
             "settings": {
+              "skill-bg": false,
               "skill-title": "JavaScript",
               "skill-range": 96
             }
@@ -144,6 +146,7 @@
           "c1de784f-2f1f-4ae9-9bcd-bfa8ea08c5f6": {
             "type": "skills",
             "settings": {
+              "skill-bg": true,
               "skill-title": "Node.js",
               "skill-range": 90
             }
@@ -151,6 +154,7 @@
           "babcd3a3-2908-4613-ac1f-09273dbdae8a": {
             "type": "skills",
             "settings": {
+              "skill-bg": false,
               "skill-title": "HTML 5",
               "skill-range": 95
             }
@@ -158,6 +162,7 @@
           "764d9d98-b137-4424-880f-36ff174b4f8e": {
             "type": "skills",
             "settings": {
+              "skill-bg": true,
               "skill-title": "Shopify Liquid",
               "skill-range": 100
             }
@@ -165,6 +170,7 @@
           "ce9b4256-65d4-43b0-95d4-5e06eaf8d2ff": {
             "type": "skills",
             "settings": {
+              "skill-bg": true,
               "skill-title": "Shopify Online Store 2.0",
               "skill-range": 95
             }
@@ -172,6 +178,7 @@
           "94704ee8-7e39-45c8-b658-e85299c9ee29": {
             "type": "skills",
             "settings": {
+              "skill-bg": true,
               "skill-title": "React.js",
               "skill-range": 80
             }
@@ -179,6 +186,7 @@
           "930fab88-e57a-44fe-8641-0124b109af87": {
             "type": "skills",
             "settings": {
+              "skill-bg": true,
               "skill-title": "Flutter | Dart",
               "skill-range": 86
             }
