@@ -1,0 +1,74 @@
+<div>
+    <h2 class="yb-section-title uk-heading-line" id="{{ section.settings.section-id }}">
+      <span>{{ section.settings.section-title }}</span>
+    </h2>
+    <div class="yb-resume-list">
+      <ul class="uk-list uk-list-large uk-list-divider">
+          {% for block in section.blocks %}
+            <li>
+                <div class="yb-resume-item">
+                    <div class="yb-resume-item-date">
+                        <div class="yb-resume-item-date-icon"> <span data-uk-icon="calendar"></span></div>
+                        <div class="yb-resume-item-date-text"><span>{{ block.settings.info-year }}</span></div>
+                    </div>
+                    <h4 class="yb-section-title">{{ block.settings.info-title }}</h4>
+                    <strong>{{ block.settings.info-sub-title }}</strong>
+                    <div class="uk-text-small">
+                        {% if block.settings.info-desc != blank %}
+                            <p>
+                                {{ block.settings.info-desc }}
+                            </p>
+                        {% endif %}
+                    </div>
+                </div>
+            </li>
+        {% endfor %}
+      </ul>
+    </div>
+</div>
+
+{% schema %}
+{
+    "name": "Resume Self Info",
+    "settings": [
+        {
+            "type": "text",
+            "id": "section-id",
+            "label": "Section ID"
+        },    
+        {
+            "type": "text",
+            "id": "section-title",
+            "label": "Section Title"
+        }
+    ],
+    "blocks": [
+        {
+            "name": "Information",
+            "type": "text",
+            "settings": [
+                {
+                    "type": "text",
+                    "id": "info-year",
+                    "label": "Info Year"
+                },
+                {
+                    "type": "text",
+                    "id": "info-title",
+                    "label": "Info Title"
+                },
+                {
+                    "type": "text",
+                    "id": "info-sub-title",
+                    "label": "Info Sub-Title"
+                },
+                {
+                    "type": "textarea",
+                    "id": "info-desc",
+                    "label": "Info Description"
+                }
+            ]
+        }
+    ]
+}
+{% endschema %}

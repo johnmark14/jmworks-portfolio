@@ -51,7 +51,51 @@
     {% section 'header' %}
     <main class="yb-main-content">
       {% section 'section-about' %}
-      {% section 'section-resume' %}
+      <!-- {% section 'section-resume' %} -->
+
+      <!-- resume section -->
+      <section class="yb-section " id="resume">
+        <!-- Section Number & title -->
+        {% section 'sub-section-resume-number-title' %}
+        <!-- End Section Number & Title -->
+        <!-- Section Nav-Left Education Experience-->
+        <div class="uk-container">
+          <div data-uk-grid class="uk-grid-divider">
+            <div class="uk-width-1-4@s uk-visible@s uk-margin-large-bottom yb-section-padding-top " id="resume-nav-wrapper">
+              <!-- Section Nav-Left -->
+              {% section 'sub-section-resume-nav-left' %}
+              <!-- End Section Nav-Left -->
+            </div>
+            <div class="uk-width-expand@s yb-section-padding-top">
+              <!-- Section Education -->
+              {% section 'sub-section-resume-self-info' %}
+              <!-- End Section Education -->
+              <!-- Section Experience -->
+              {% section 'sub-section-resume-self-info' %}
+              <!-- End Section Experience -->
+              <!-- Section Skills -->
+              {% section 'sub-section-resume-skills' %}
+              <!-- End Section Skills -->
+            </div>
+          </div>
+        </div>
+        <!-- End Section Nav-Left Education Experience -->
+        <!-- Section Hire me Buttons -->
+        <div class="yb-section yb-section-padding uk-background-cover uk-background-fixed " data-uk-parallax="bgy: -200" data-src="src/img/bg/bg2.jpg" data-uk-img>
+          <div class="yb-overlay-primary uk-position-cover"></div>
+          <div class="uk-container uk-text-center uk-position-relative">
+            <div data-uk-grid class="uk-grid-small  uk-flex-center">
+              <div>
+                <a href="#" class=" yb-btn uk-button uk-button-primary uk-button-large">Download CV</a>
+              </div>
+              <div>
+                <a href="#contact" class="yb-inner-link yb-btn uk-button uk-button-danger  uk-button-large">Hire Me</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Section Hire me Buttons -->
+      </section><!-- end resume section -->
       <!-- {{ content_for_layout }} -->
     </main>
     <!-- {% section 'footer' %} -->
