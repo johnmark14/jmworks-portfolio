@@ -162,7 +162,7 @@
           "764d9d98-b137-4424-880f-36ff174b4f8e": {
             "type": "skills",
             "settings": {
-              "skill-bg": true,
+              "skill-bg": false,
               "skill-title": "Shopify Liquid",
               "skill-range": 100
             }
@@ -178,7 +178,7 @@
           "94704ee8-7e39-45c8-b658-e85299c9ee29": {
             "type": "skills",
             "settings": {
-              "skill-bg": true,
+              "skill-bg": false,
               "skill-title": "React.js",
               "skill-range": 80
             }
