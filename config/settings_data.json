@@ -105,14 +105,14 @@
             "type": "text",
             "settings": {
               "link-title": "Eperience",
-              "link-link": "experience"
+              "link-link": "#experience"
             }
           },
           "748f9c1c-8ae2-4ffe-97b6-785fe72e30c1": {
             "type": "text",
             "settings": {
               "link-title": "Skills",
-              "link-link": "skills"
+              "link-link": "#skills"
             }
           }
         },
