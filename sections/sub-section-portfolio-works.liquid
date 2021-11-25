@@ -18,7 +18,7 @@
                     <div class="yb-work-item-img-wrap">
                     <div class="yb-work-item-img">
                         <img src="src/img/empty.png" width="383" 
-                        height="574" data-src="{{ block.settings.work-image | img_url: 'master'}}" 
+                        height="574" data-src="{{ block.settings.work-image-preview | img_url: 'master'}}" 
                         class="uk-transition-scale-up uk-transition-opaque" 
                         alt="Work Image {{forloop.index}}" data-uk-img />
                     </div>
@@ -28,7 +28,7 @@
                     uk-overlay  
                     uk-flex uk-flex-center uk-flex-middle">
                         <div>
-                        <a href="{{ block.settings.work-image | img_url: 'master'}}" 
+                        <a href="{{ block.settings.work-image-full | img_url: 'master'}}" 
                         class="yb-lightbox uk-transition-slide-left" 
                         data-caption="{{ block.settings.project-desc }}">
                             <span data-uk-icon="icon:plus; ratio:1.2"></span>
@@ -350,8 +350,13 @@
                 },
                 {
                     "type": "image_picker",
-                    "id": "work-image",
-                    "label": "Your Work Image"
+                    "id": "work-image-preview",
+                    "label": "Preview Image"
+                },
+                {
+                    "type": "image_picker",
+                    "id": "work-image-full",
+                    "label": "Full Image"
                 }
             ]
         }
