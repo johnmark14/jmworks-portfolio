@@ -197,11 +197,11 @@
         "settings": {
           "section-id": "skills",
           "section-title": "Skills",
-          "problem-solving-range": 50,
-          "creativity-range": 50,
-          "time-management-range": 50,
-          "team-work-range": 50,
-          "english-range": 50
+          "problem-solving-range": 92,
+          "creativity-range": 86,
+          "time-management-range": 80,
+          "team-work-range": 80,
+          "english-range": 100
         }
       },
       "sub-section-resume-education-info": {
