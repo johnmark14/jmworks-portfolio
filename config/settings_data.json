@@ -386,6 +386,24 @@
       },
       "sub-section-portfolio-works": {
         "type": "sub-section-portfolio-works",
+        "blocks": {
+          "1096f9e1-4a18-4fe0-a519-df01382fc1ad": {
+            "type": "work",
+            "settings": {
+              "is-web": true,
+              "is-shopify": false,
+              "is-mobile": false,
+              "project-title": "hijoey Training Cards",
+              "project-type": "Shopify Custom Features",
+              "project-desc": "",
+              "project-url": "",
+              "work-image": "shopify:\/\/shop_images\/mavic-1.jpg"
+            }
+          }
+        },
+        "block_order": [
+          "1096f9e1-4a18-4fe0-a519-df01382fc1ad"
+        ],
         "settings": {
           "section-id": "myworks",
           "section-title": "My Works"
