@@ -323,6 +323,31 @@
           "section-id": "experience",
           "section-title": "Experience"
         }
+      },
+      "sub-section-resume-hire-buttons": {
+        "type": "sub-section-resume-hire-buttons",
+        "blocks": {
+          "d062fbae-de12-404d-bd90-69d63f70931d": {
+            "type": "cv",
+            "settings": {
+              "btn-text": "Download CV",
+              "btn-url": ""
+            }
+          },
+          "3316552f-52fd-420c-8005-bb924345441a": {
+            "type": "hire",
+            "settings": {
+              "btn-text": "Hire Me",
+              "btn-url": "#contact"
+            }
+          }
+        },
+        "block_order": [
+          "d062fbae-de12-404d-bd90-69d63f70931d",
+          "3316552f-52fd-420c-8005-bb924345441a"
+        ],
+        "settings": {
+        }
       }
     },
     "content_for_index": [
