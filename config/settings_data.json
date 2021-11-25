@@ -98,7 +98,7 @@
             "type": "text",
             "settings": {
               "link-title": "Education",
-              "link-link": "education"
+              "link-link": "#education"
             }
           },
           "f6b2483d-1fe2-4b43-a0a8-82b259fb01b8": {
