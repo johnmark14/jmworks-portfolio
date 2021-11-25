@@ -383,6 +383,13 @@
         "settings": {
           "section-link": "#portfolio"
         }
+      },
+      "sub-section-portfolio-works": {
+        "type": "sub-section-portfolio-works",
+        "settings": {
+          "section-id": "#myworks",
+          "section-title": "My Works"
+        }
       }
     },
     "content_for_index": [
