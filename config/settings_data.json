@@ -123,6 +123,7 @@
           "748f9c1c-8ae2-4ffe-97b6-785fe72e30c1"
         ],
         "settings": {
+          "this-link": "#resume"
         }
       },
       "sub-section-resume-skills": {
@@ -348,6 +349,13 @@
           "3316552f-52fd-420c-8005-bb924345441a"
         ],
         "settings": {
+        }
+      },
+      "sub-section-portfolio-number-title": {
+        "type": "sub-section-portfolio-number-title",
+        "settings": {
+          "section-number": "04",
+          "section-title": "Portfolio"
         }
       }
     },
