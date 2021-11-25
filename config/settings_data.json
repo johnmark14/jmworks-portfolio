@@ -96,27 +96,6 @@
         "settings": {
         }
       },
-      "sub-section-resume-self-info": {
-        "type": "sub-section-resume-self-info",
-        "blocks": {
-          "15b45d7a-2379-4f56-8e8c-5e380cc07162": {
-            "type": "text",
-            "settings": {
-              "info-year": "",
-              "info-title": "",
-              "info-sub-title": "",
-              "info-desc": ""
-            }
-          }
-        },
-        "block_order": [
-          "15b45d7a-2379-4f56-8e8c-5e380cc07162"
-        ],
-        "settings": {
-          "section-id": "education",
-          "section-title": "Education"
-        }
-      },
       "sub-section-resume-skills": {
         "type": "sub-section-resume-skills",
         "settings": {
@@ -127,6 +106,20 @@
           "time-management-range": 50,
           "team-work-range": 50,
           "english-range": 50
+        }
+      },
+      "sub-section-resume-education-info": {
+        "type": "sub-section-resume-education-info",
+        "settings": {
+          "section-id": "education",
+          "section-title": "Education"
+        }
+      },
+      "sub-section-resume-experience-info": {
+        "type": "sub-section-resume-experience-info",
+        "settings": {
+          "section-id": "experience",
+          "section-title": "Experience"
         }
       }
     },
