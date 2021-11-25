@@ -147,12 +147,20 @@
               "skill-title": "Node.js",
               "skill-range": 90
             }
+          },
+          "babcd3a3-2908-4613-ac1f-09273dbdae8a": {
+            "type": "skills",
+            "settings": {
+              "skill-title": "HTML 5",
+              "skill-range": 95
+            }
           }
         },
         "block_order": [
           "ce2541ff-c82e-4a24-b202-a06caa51d8b4",
           "ee24031e-d036-4cee-a6ae-d6f9856be991",
-          "c1de784f-2f1f-4ae9-9bcd-bfa8ea08c5f6"
+          "c1de784f-2f1f-4ae9-9bcd-bfa8ea08c5f6",
+          "babcd3a3-2908-4613-ac1f-09273dbdae8a"
         ],
         "settings": {
           "section-id": "skills",
