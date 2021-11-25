@@ -424,6 +424,41 @@
           "section-id": "myworks",
           "section-title": "My Works"
         }
+      },
+      "sub-section-portfolio-pricing": {
+        "type": "sub-section-portfolio-pricing",
+        "blocks": {
+          "bd1bf9ac-5b45-447b-9a27-4693e991c21d": {
+            "type": "shopify",
+            "settings": {
+              "card-title": "Shopify Developer",
+              "card-rate": 10
+            }
+          },
+          "9444f4d3-5c06-4e0f-8c6e-9682645cf5c7": {
+            "type": "front",
+            "settings": {
+              "card-title": "Front-End Developer",
+              "card-rate": 8
+            }
+          },
+          "a8ed5375-8212-4e4d-bcda-029f437e18f5": {
+            "type": "full",
+            "settings": {
+              "card-title": "Full-Stack Developer",
+              "card-rate": 15
+            }
+          }
+        },
+        "block_order": [
+          "bd1bf9ac-5b45-447b-9a27-4693e991c21d",
+          "9444f4d3-5c06-4e0f-8c6e-9682645cf5c7",
+          "a8ed5375-8212-4e4d-bcda-029f437e18f5"
+        ],
+        "settings": {
+          "section-id": "pricing",
+          "section-title": "Pricing"
+        }
       }
     },
     "content_for_index": [
