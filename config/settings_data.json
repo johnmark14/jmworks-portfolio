@@ -357,6 +357,32 @@
           "section-number": "04",
           "section-title": "Portfolio"
         }
+      },
+      "sub-section-portfolio-nav-left": {
+        "type": "sub-section-portfolio-nav-left",
+        "blocks": {
+          "c9016a9b-78c8-4bef-8c94-379fed2af16d": {
+            "type": "text",
+            "settings": {
+              "link-title": "My Works",
+              "link-link": "#myworks"
+            }
+          },
+          "ca9e2d21-8efb-4fcd-a118-d4854a79f712": {
+            "type": "text",
+            "settings": {
+              "link-title": "Pricing",
+              "link-link": "#pricing"
+            }
+          }
+        },
+        "block_order": [
+          "c9016a9b-78c8-4bef-8c94-379fed2af16d",
+          "ca9e2d21-8efb-4fcd-a118-d4854a79f712"
+        ],
+        "settings": {
+          "section-link": "#portfolio"
+        }
       }
     },
     "content_for_index": [
