@@ -525,6 +525,20 @@
               "work-image-preview": "shopify:\/\/shop_images\/12-preview.png",
               "work-image-full": "shopify:\/\/shop_images\/12-full.png"
             }
+          },
+          "271b63f3-eac5-4ec4-a6d2-7cbeae080ec9": {
+            "type": "work",
+            "settings": {
+              "is-web": true,
+              "is-shopify": false,
+              "is-mobile": false,
+              "project-title": "Nexter web design project",
+              "project-type": "web",
+              "project-desc": "A web design project.",
+              "project-url": "https:\/\/github.com\/johnmark14\/nexter",
+              "work-image-preview": "shopify:\/\/shop_images\/13-preview.png",
+              "work-image-full": "shopify:\/\/shop_images\/13-full.png"
+            }
           }
         },
         "block_order": [
@@ -539,7 +553,8 @@
           "d83b1369-dc12-41a8-ace0-0d20222c574c",
           "105e3533-01cf-41ea-a156-e0836d539814",
           "d5b59f7d-64f8-4438-acdc-4a80f1e46ef1",
-          "ef791773-ce3f-41f8-bd76-c402c856a2d5"
+          "ef791773-ce3f-41f8-bd76-c402c856a2d5",
+          "271b63f3-eac5-4ec4-a6d2-7cbeae080ec9"
         ],
         "settings": {
           "section-id": "myworks",
