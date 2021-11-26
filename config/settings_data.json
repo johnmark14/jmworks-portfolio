@@ -449,7 +449,7 @@
         "type": "footer",
         "settings": {
           "text-left": "JM Works 2021",
-          "nav-menu": ""
+          "nav-menu": "footer"
         }
       }
     },
