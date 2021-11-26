@@ -10,17 +10,38 @@
     <div class="uk-container">
       <div data-uk-grid class="uk-child-width-1-2@s">
         <div class="uk-margin-remove uk-text-left@s">
-          JM Works 2021.
+          {{section.settings.text-left}}
         </div>
-        <div class="uk-margin-remove uk-text-right@s">
-          <div class="yb-footer-social">
-            <a href="#">Facebook</a>
-            <a href="#">Instagram</a>
-            <a href="#">Twitter</a>
+        {% if section.settings.nav-menu %}
+          <div class="uk-margin-remove uk-text-right@s">
+            <div class="yb-footer-social">
+              {% for link in section.settings.nav-menu.links %}
+                <a href="{{link.url}}">{{link.title}}</a>
+              {% endfor %}
+            </div>
           </div>
-        </div>
+        {% endif %}
       </div>
     </div>
   </div>
 </footer>
 <!-- end main footer -->
+
+{% schema %}
+{
+  "name": "Footer",
+  "settings": [
+    {
+      "type": "textarea",
+      "id": "text-left",
+      "label": "Text Left",
+      "default": "JM Works 2021"
+    },
+    {
+      "type": "link_list",
+      "id": "nav-menu",
+      "label": "Menu"
+    }
+  ]
+}
+{% endschema %}

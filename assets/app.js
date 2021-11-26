@@ -14,6 +14,9 @@
     init_chart_circle();
     init_contact_form();
     init_portfolio_details();
+
+    // Custom for EMAIL.js by John
+    emailjs.init('user_s0M6HnJ250LWHykUbgA8y');
   });
 
   //Run function when window on scroll
@@ -158,42 +161,65 @@
     var $alert_wrap = $("#contact-form-alert");
      
     if ($el.length && $alert_wrap.length) {
-      $el.on("submit", function() {
+      $el.on("submit", function(e) {
+        e.preventDefault();
+
         var $btn = $("#btn-contact-form");
-        var params = $el.serialize();
+        // var params = $el.serialize();
 
         init_btn_loading($btn, true);
 
         
-        $.post("src/php/sendmail.php", params, function(data) {
-          var dt = JSON.parse(data);
-          if (dt.status == "error") {
-            var alert = init_alert(
-              "contact-alert-err",
-              dt.status_desc,
-              "uk-alert-danger",
-              "warning"
-            );
-          } else {
-            var alert = init_alert(
-              "contact-alert-success",
-              dt.status_desc,
-              "uk-alert-primary",
-              "info"
-            );
-            $el.trigger("reset");
-          }
-          $.each(dt.error_msg, function(key, value) {
-            if (value == "") {
-              $("#" + key).removeClass("uk-form-danger");
-            } else {
-              $("#" + key).addClass("uk-form-danger");
-            }
-            $("#" + key + "_error").html(value);
-          });
+        // $.post("src/php/sendmail.php", params, function(data) {
+        //   var dt = JSON.parse(data);
+        //   if (dt.status == "error") {
+        //     var alert = init_alert(
+        //       "contact-alert-err",
+        //       dt.status_desc,
+        //       "uk-alert-danger",
+        //       "warning"
+        //     );
+        //   } else {
+        //     var alert = init_alert(
+        //       "contact-alert-success",
+        //       dt.status_desc,
+        //       "uk-alert-primary",
+        //       "info"
+        //     );
+        //     $el.trigger("reset");
+        //   }
+        //   $.each(dt.error_msg, function(key, value) {
+        //     if (value == "") {
+        //       $("#" + key).removeClass("uk-form-danger");
+        //     } else {
+        //       $("#" + key).addClass("uk-form-danger");
+        //     }
+        //     $("#" + key + "_error").html(value);
+        //   });
+        //   $alert_wrap.html(alert);
+        //   init_btn_loading($btn, false);
+        // });
+
+        emailjs.sendForm('contact_service', 'contact_form', this).then(function() {
+          var alert = init_alert(
+            "contact-alert-success",
+            "Sent. I'll get back to you as soon as possible. Thank you!",
+            "uk-alert-primary",
+            "info"
+          );
+          $el.trigger("reset");
           $alert_wrap.html(alert);
           init_btn_loading($btn, false);
-        });
+        }, function(error) {
+          var alert = init_alert(
+            "contact-alert-err",
+            error,
+            "uk-alert-danger",
+            "warning"
+          );
+          $alert_wrap.html(alert);
+          init_btn_loading($btn, false);
+        })
 
         return false;
       });

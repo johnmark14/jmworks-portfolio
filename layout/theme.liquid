@@ -35,6 +35,7 @@
     {{ 'app.css' | asset_url | stylesheet_tag }}
 
     <!-- JavaScript -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
     {{ 'plugins.min.js' | asset_url | script_tag}}
     {{ 'app.js' | asset_url | script_tag}}
   </head>
