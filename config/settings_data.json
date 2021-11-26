@@ -553,6 +553,20 @@
               "work-image-preview": "shopify:\/\/shop_images\/14-preview.png",
               "work-image-full": "shopify:\/\/shop_images\/14-full.png"
             }
+          },
+          "e6598264-4ea9-4d1e-82fd-5e58d5194975": {
+            "type": "work",
+            "settings": {
+              "is-web": false,
+              "is-shopify": false,
+              "is-mobile": true,
+              "project-title": "Flash Chat",
+              "project-type": "mobile",
+              "project-desc": "A chat app mobile design.",
+              "project-url": "https:\/\/github.com\/johnmark14\/flash-chat-app-design",
+              "work-image-preview": "shopify:\/\/shop_images\/15-preview.png",
+              "work-image-full": "shopify:\/\/shop_images\/flash_chat_flutter_demo.gif"
+            }
           }
         },
         "block_order": [
@@ -569,7 +583,8 @@
           "d5b59f7d-64f8-4438-acdc-4a80f1e46ef1",
           "ef791773-ce3f-41f8-bd76-c402c856a2d5",
           "271b63f3-eac5-4ec4-a6d2-7cbeae080ec9",
-          "4d2ea141-e456-40f1-8108-87983cdd40f9"
+          "4d2ea141-e456-40f1-8108-87983cdd40f9",
+          "e6598264-4ea9-4d1e-82fd-5e58d5194975"
         ],
         "settings": {
           "section-id": "myworks",
