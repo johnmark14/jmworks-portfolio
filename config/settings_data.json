@@ -539,6 +539,20 @@
               "work-image-preview": "shopify:\/\/shop_images\/13-preview.png",
               "work-image-full": "shopify:\/\/shop_images\/13-full.png"
             }
+          },
+          "4d2ea141-e456-40f1-8108-87983cdd40f9": {
+            "type": "work",
+            "settings": {
+              "is-web": false,
+              "is-shopify": false,
+              "is-mobile": true,
+              "project-title": "A Fancy BMI app",
+              "project-type": "mobile",
+              "project-desc": "A mobile app design",
+              "project-url": "https:\/\/github.com\/johnmark14\/fancy_bmi_app",
+              "work-image-preview": "shopify:\/\/shop_images\/14-preview.png",
+              "work-image-full": "shopify:\/\/shop_images\/14-full.png"
+            }
           }
         },
         "block_order": [
@@ -554,7 +568,8 @@
           "105e3533-01cf-41ea-a156-e0836d539814",
           "d5b59f7d-64f8-4438-acdc-4a80f1e46ef1",
           "ef791773-ce3f-41f8-bd76-c402c856a2d5",
-          "271b63f3-eac5-4ec4-a6d2-7cbeae080ec9"
+          "271b63f3-eac5-4ec4-a6d2-7cbeae080ec9",
+          "4d2ea141-e456-40f1-8108-87983cdd40f9"
         ],
         "settings": {
           "section-id": "myworks",
