@@ -441,6 +441,20 @@
               "work-image-preview": "shopify:\/\/shop_images\/06-preview.png",
               "work-image-full": "shopify:\/\/shop_images\/06-full.png"
             }
+          },
+          "77f2a82b-53d5-4a21-95d2-4d6ee85755cb": {
+            "type": "work",
+            "settings": {
+              "is-web": false,
+              "is-shopify": true,
+              "is-mobile": false,
+              "project-title": "Custom Collection Cards",
+              "project-type": "shopify",
+              "project-desc": "Created this custom collection cards based on client design and specifications.",
+              "project-url": "",
+              "work-image-preview": "shopify:\/\/shop_images\/07-preview.png",
+              "work-image-full": "shopify:\/\/shop_images\/07-full.png"
+            }
           }
         },
         "block_order": [
@@ -449,7 +463,8 @@
           "f85552d1-c8d0-453d-b4d5-4684607b4066",
           "ac87bc81-b9e3-4e42-9c38-3d85e801e3b2",
           "92f2659b-15ed-4d42-be12-04f0d9754a3e",
-          "6c5271d5-db10-4daa-9747-4effd0a16ead"
+          "6c5271d5-db10-4daa-9747-4effd0a16ead",
+          "77f2a82b-53d5-4a21-95d2-4d6ee85755cb"
         ],
         "settings": {
           "section-id": "myworks",
