@@ -37,7 +37,10 @@
           "hero-text": "John Works",
           "hero-image-top": "shopify:\/\/shop_images\/x1.png",
           "logo-text": "JWs",
-          "nav-menu": "main-menu"
+          "nav-menu": "main-menu",
+          "facebook": "https:\/\/www.facebook.com\/gabrentinajohnmark",
+          "github": "https:\/\/github.com\/johnmark14",
+          "linkedin": "https:\/\/linkedin.com\/in\/john-mark"
         }
       },
       "section-about": {
@@ -445,6 +448,8 @@
       "footer": {
         "type": "footer",
         "settings": {
+          "text-left": "JM Works 2021",
+          "nav-menu": ""
         }
       }
     },
