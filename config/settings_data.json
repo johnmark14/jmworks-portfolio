@@ -413,13 +413,28 @@
               "work-image-preview": "shopify:\/\/shop_images\/04-preview.png",
               "work-image-full": "shopify:\/\/shop_images\/04-full.png"
             }
+          },
+          "92f2659b-15ed-4d42-be12-04f0d9754a3e": {
+            "type": "work",
+            "settings": {
+              "is-web": false,
+              "is-shopify": true,
+              "is-mobile": false,
+              "project-title": "Custom Product Page",
+              "project-type": "shopify",
+              "project-desc": "Modified this shopify product section based on client design & specification.",
+              "project-url": "https:\/\/hijoey.co\/collections\/all\/products\/starter-set",
+              "work-image-preview": "shopify:\/\/shop_images\/05-preview.png",
+              "work-image-full": "shopify:\/\/shop_images\/05-full.png"
+            }
           }
         },
         "block_order": [
           "1096f9e1-4a18-4fe0-a519-df01382fc1ad",
           "72ce08c9-7456-4e7d-987d-cf0ceab8f551",
           "f85552d1-c8d0-453d-b4d5-4684607b4066",
-          "ac87bc81-b9e3-4e42-9c38-3d85e801e3b2"
+          "ac87bc81-b9e3-4e42-9c38-3d85e801e3b2",
+          "92f2659b-15ed-4d42-be12-04f0d9754a3e"
         ],
         "settings": {
           "section-id": "myworks",
