@@ -511,6 +511,20 @@
               "work-image-preview": "shopify:\/\/shop_images\/11-preview.png",
               "work-image-full": "shopify:\/\/shop_images\/11-full.png"
             }
+          },
+          "ef791773-ce3f-41f8-bd76-c402c856a2d5": {
+            "type": "work",
+            "settings": {
+              "is-web": true,
+              "is-shopify": false,
+              "is-mobile": false,
+              "project-title": "Natours Web Design",
+              "project-type": "web",
+              "project-desc": "A web design project.",
+              "project-url": "https:\/\/github.com\/johnmark14\/Natours-Website-Project",
+              "work-image-preview": "shopify:\/\/shop_images\/12-preview.png",
+              "work-image-full": "shopify:\/\/shop_images\/12-full.png"
+            }
           }
         },
         "block_order": [
@@ -524,7 +538,8 @@
           "f6810101-3eb8-4abb-aeaf-b787d8a95a5a",
           "d83b1369-dc12-41a8-ace0-0d20222c574c",
           "105e3533-01cf-41ea-a156-e0836d539814",
-          "d5b59f7d-64f8-4438-acdc-4a80f1e46ef1"
+          "d5b59f7d-64f8-4438-acdc-4a80f1e46ef1",
+          "ef791773-ce3f-41f8-bd76-c402c856a2d5"
         ],
         "settings": {
           "section-id": "myworks",
