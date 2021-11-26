@@ -497,6 +497,20 @@
               "work-image-preview": "shopify:\/\/shop_images\/10-preview.png",
               "work-image-full": "shopify:\/\/shop_images\/10-full.png"
             }
+          },
+          "d5b59f7d-64f8-4438-acdc-4a80f1e46ef1": {
+            "type": "work",
+            "settings": {
+              "is-web": true,
+              "is-shopify": true,
+              "is-mobile": false,
+              "project-title": "Thermi brands store",
+              "project-type": "shopify",
+              "project-desc": "Ongoing. Developed this new store based on clients design & specification. The store is currently in development and will  be available before December ends.",
+              "project-url": "https:\/\/thermi-2-0.myshopify.com\/",
+              "work-image-preview": "shopify:\/\/shop_images\/11-preview.png",
+              "work-image-full": "shopify:\/\/shop_images\/11-full.png"
+            }
           }
         },
         "block_order": [
@@ -509,7 +523,8 @@
           "77f2a82b-53d5-4a21-95d2-4d6ee85755cb",
           "f6810101-3eb8-4abb-aeaf-b787d8a95a5a",
           "d83b1369-dc12-41a8-ace0-0d20222c574c",
-          "105e3533-01cf-41ea-a156-e0836d539814"
+          "105e3533-01cf-41ea-a156-e0836d539814",
+          "d5b59f7d-64f8-4438-acdc-4a80f1e46ef1"
         ],
         "settings": {
           "section-id": "myworks",
