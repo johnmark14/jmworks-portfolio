@@ -385,11 +385,26 @@
               "work-image-preview": "shopify:\/\/shop_images\/02-full.png",
               "work-image-full": "shopify:\/\/shop_images\/02-preview.png"
             }
+          },
+          "f85552d1-c8d0-453d-b4d5-4684607b4066": {
+            "type": "work",
+            "settings": {
+              "is-web": true,
+              "is-shopify": true,
+              "is-mobile": false,
+              "project-title": "How it works",
+              "project-type": "shopify",
+              "project-desc": "Create a custom shopify how it works instruction. The design was based on client design & specifications",
+              "project-url": "https:\/\/hijoey.co\/collections\/all\/products\/starter-set",
+              "work-image-preview": "shopify:\/\/shop_images\/03-preview.png",
+              "work-image-full": "shopify:\/\/shop_images\/03-full.png"
+            }
           }
         },
         "block_order": [
           "1096f9e1-4a18-4fe0-a519-df01382fc1ad",
-          "72ce08c9-7456-4e7d-987d-cf0ceab8f551"
+          "72ce08c9-7456-4e7d-987d-cf0ceab8f551",
+          "f85552d1-c8d0-453d-b4d5-4684607b4066"
         ],
         "settings": {
           "section-id": "myworks",
