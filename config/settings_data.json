@@ -469,6 +469,20 @@
               "work-image-preview": "shopify:\/\/shop_images\/08-preview.png",
               "work-image-full": "shopify:\/\/shop_images\/08-full.png"
             }
+          },
+          "d83b1369-dc12-41a8-ace0-0d20222c574c": {
+            "type": "work",
+            "settings": {
+              "is-web": false,
+              "is-shopify": true,
+              "is-mobile": false,
+              "project-title": "Product Suggestion",
+              "project-type": "shopify",
+              "project-desc": "Created this product suggestion based on the most viewed product of the site, then when clicked shows a pop up dialog. This was based on clients design & specificaton.",
+              "project-url": "",
+              "work-image-preview": "shopify:\/\/shop_images\/08-preview.png",
+              "work-image-full": "shopify:\/\/shop_images\/09-full.png"
+            }
           }
         },
         "block_order": [
@@ -479,7 +493,8 @@
           "92f2659b-15ed-4d42-be12-04f0d9754a3e",
           "6c5271d5-db10-4daa-9747-4effd0a16ead",
           "77f2a82b-53d5-4a21-95d2-4d6ee85755cb",
-          "f6810101-3eb8-4abb-aeaf-b787d8a95a5a"
+          "f6810101-3eb8-4abb-aeaf-b787d8a95a5a",
+          "d83b1369-dc12-41a8-ace0-0d20222c574c"
         ],
         "settings": {
           "section-id": "myworks",
