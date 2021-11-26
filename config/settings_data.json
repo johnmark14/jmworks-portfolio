@@ -455,6 +455,20 @@
               "work-image-preview": "shopify:\/\/shop_images\/07-preview.png",
               "work-image-full": "shopify:\/\/shop_images\/07-full.png"
             }
+          },
+          "f6810101-3eb8-4abb-aeaf-b787d8a95a5a": {
+            "type": "work",
+            "settings": {
+              "is-web": false,
+              "is-shopify": true,
+              "is-mobile": false,
+              "project-title": "Customizable Product with Text Preview",
+              "project-type": "shopify",
+              "project-desc": "Created this customizable product page, which let client customer to preview the custom text. This is based on client design and specifications.",
+              "project-url": "",
+              "work-image-preview": "shopify:\/\/shop_images\/08-preview.png",
+              "work-image-full": "shopify:\/\/shop_images\/08-full.png"
+            }
           }
         },
         "block_order": [
@@ -464,7 +478,8 @@
           "ac87bc81-b9e3-4e42-9c38-3d85e801e3b2",
           "92f2659b-15ed-4d42-be12-04f0d9754a3e",
           "6c5271d5-db10-4daa-9747-4effd0a16ead",
-          "77f2a82b-53d5-4a21-95d2-4d6ee85755cb"
+          "77f2a82b-53d5-4a21-95d2-4d6ee85755cb",
+          "f6810101-3eb8-4abb-aeaf-b787d8a95a5a"
         ],
         "settings": {
           "section-id": "myworks",
