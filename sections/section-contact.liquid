@@ -14,7 +14,7 @@
         </div>
         <div class=" uk-width-1-4@m yb-section-padding yb-contact-right">
           <p class="uk-margin-medium-bottom uk-visible@m">
-            <img src="src/img/empty.png" data-src="{{ section.settings.profile-photo }}" alt="Profile Photo" width="500" height="500" data-uk-img alt="" class="uk-border-circle" />
+            <img src="src/img/empty.png" data-src="{{ section.settings.profile-photo | img_url: 'master'}}" alt="Profile Photo" width="500" height="500" data-uk-img alt="" class="uk-border-circle" />
           </p>
           <ul class="uk-list uk-list-divider uk-text-small yb-contact-mini">
             {% if section.settings.primary-email != blank%}
