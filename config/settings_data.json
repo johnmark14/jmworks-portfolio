@@ -427,6 +427,20 @@
               "work-image-preview": "shopify:\/\/shop_images\/05-preview.png",
               "work-image-full": "shopify:\/\/shop_images\/05-full.png"
             }
+          },
+          "6c5271d5-db10-4daa-9747-4effd0a16ead": {
+            "type": "work",
+            "settings": {
+              "is-web": false,
+              "is-shopify": true,
+              "is-mobile": false,
+              "project-title": "Collection Promo Banner",
+              "project-type": "shopify",
+              "project-desc": "Created this promotional banner to the collection page based on client design & specification.",
+              "project-url": "https:\/\/our-first-spark.myshopify.com\/collections\/name-necklace",
+              "work-image-preview": "shopify:\/\/shop_images\/06-preview.png",
+              "work-image-full": "shopify:\/\/shop_images\/06-full.png"
+            }
           }
         },
         "block_order": [
@@ -434,7 +448,8 @@
           "72ce08c9-7456-4e7d-987d-cf0ceab8f551",
           "f85552d1-c8d0-453d-b4d5-4684607b4066",
           "ac87bc81-b9e3-4e42-9c38-3d85e801e3b2",
-          "92f2659b-15ed-4d42-be12-04f0d9754a3e"
+          "92f2659b-15ed-4d42-be12-04f0d9754a3e",
+          "6c5271d5-db10-4daa-9747-4effd0a16ead"
         ],
         "settings": {
           "section-id": "myworks",
