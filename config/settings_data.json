@@ -190,6 +190,7 @@
         "blocks": {
           "bcaa2da2-00fa-4f57-bf3d-df2c92636c33": {
             "type": "text",
+            "disabled": true,
             "settings": {
               "info-year": "2021",
               "info-title": "Data Associate",
