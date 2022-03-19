@@ -568,6 +568,20 @@
               "work-image-preview": "shopify:\/\/shop_images\/15-preview.png",
               "work-image-full": "shopify:\/\/shop_images\/15-preview.png"
             }
+          },
+          "1e891457-8a52-44ff-baae-bf7b5adf1376": {
+            "type": "work",
+            "settings": {
+              "is-web": true,
+              "is-shopify": false,
+              "is-mobile": false,
+              "project-title": "Side Project CV Page",
+              "project-type": "Side Project",
+              "project-desc": "This is a side project I built on my free time",
+              "project-url": "https:\/\/johnmark14.github.io\/Resume-CV-Page\/index.html",
+              "work-image-preview": "shopify:\/\/shop_images\/screenshot.png",
+              "work-image-full": "shopify:\/\/shop_images\/screenshot.png"
+            }
           }
         },
         "block_order": [
@@ -585,7 +599,8 @@
           "ef791773-ce3f-41f8-bd76-c402c856a2d5",
           "271b63f3-eac5-4ec4-a6d2-7cbeae080ec9",
           "4d2ea141-e456-40f1-8108-87983cdd40f9",
-          "e6598264-4ea9-4d1e-82fd-5e58d5194975"
+          "e6598264-4ea9-4d1e-82fd-5e58d5194975",
+          "1e891457-8a52-44ff-baae-bf7b5adf1376"
         ],
         "settings": {
           "section-id": "myworks",
