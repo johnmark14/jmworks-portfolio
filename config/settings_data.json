@@ -230,21 +230,21 @@
       "sub-section-resume-experience-info": {
         "type": "sub-section-resume-experience-info",
         "blocks": {
-          "67915069-a01e-4fab-9802-0b6657a2e7d7": {
-            "type": "text",
-            "settings": {
-              "info-year": "2022 - Present",
-              "info-title": "Shopify Theme Developer",
-              "info-sub-title": "Fezzari.com",
-              "info-desc": ""
-            }
-          },
           "2508649c-fab0-49dd-ba66-7d88dcc69b8b": {
             "type": "text",
             "settings": {
               "info-year": "2022 - Present",
               "info-title": "Shopify Theme Developer | Web Developer",
               "info-sub-title": "aesymetric.xyz",
+              "info-desc": ""
+            }
+          },
+          "67915069-a01e-4fab-9802-0b6657a2e7d7": {
+            "type": "text",
+            "settings": {
+              "info-year": "2022 - Present",
+              "info-title": "Shopify Theme Developer",
+              "info-sub-title": "fezzari.com",
               "info-desc": ""
             }
           },
@@ -304,8 +304,8 @@
           }
         },
         "block_order": [
-          "67915069-a01e-4fab-9802-0b6657a2e7d7",
           "2508649c-fab0-49dd-ba66-7d88dcc69b8b",
+          "67915069-a01e-4fab-9802-0b6657a2e7d7",
           "6623f7d2-409d-4f8b-8256-216bfc8558cf",
           "4f6a00d9-9422-40e3-a604-0bb2fca444fc",
           "d0c86efd-72c9-4176-b2ff-4ac9f2520205",
