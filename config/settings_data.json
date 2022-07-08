@@ -283,6 +283,15 @@
               "info-sub-title": "ACLC College Sorsogon",
               "info-desc": ""
             }
+          },
+          "2508649c-fab0-49dd-ba66-7d88dcc69b8b": {
+            "type": "text",
+            "settings": {
+              "info-year": "2022 - Present",
+              "info-title": "Shopify Theme Developer | Web Developer",
+              "info-sub-title": "aesymetric.xyz",
+              "info-desc": ""
+            }
           }
         },
         "block_order": [
@@ -291,7 +300,8 @@
           "d0c86efd-72c9-4176-b2ff-4ac9f2520205",
           "fbd44a5f-4348-4b34-adc8-576092570451",
           "989e2f30-5267-4a8d-a2a8-c35e0bbd5e4e",
-          "5cfd505d-664f-4557-9614-d2dc96e93ddd"
+          "5cfd505d-664f-4557-9614-d2dc96e93ddd",
+          "2508649c-fab0-49dd-ba66-7d88dcc69b8b"
         ],
         "settings": {
           "section-id": "experience",
