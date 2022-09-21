@@ -38,6 +38,16 @@
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
     {{ 'plugins.min.js' | asset_url | script_tag}}
     {{ 'app.js' | asset_url | script_tag}}
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-L8EGB867W5"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-L8EGB867W5');
+    </script>
   </head>
 
   <body id="body-app" class="yb-dark-skin uk-light">
