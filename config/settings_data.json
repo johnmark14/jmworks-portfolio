@@ -379,6 +379,20 @@
       "sub-section-portfolio-works": {
         "type": "sub-section-portfolio-works",
         "blocks": {
+          "work_4AQqAP": {
+            "type": "work",
+            "settings": {
+              "is-web": true,
+              "is-shopify": true,
+              "is-mobile": false,
+              "project-title": "fyrn product page",
+              "project-type": "web\/shopify",
+              "project-desc": "Fyrn custom product page | product builder",
+              "project-url": "https:\/\/fyrn.com\/products\/standard-chair?variant=39962569867331",
+              "work-image-preview": "shopify:\/\/shop_images\/fyrn_product_page.png",
+              "work-image-full": "shopify:\/\/shop_images\/fyrn_product_page.png"
+            }
+          },
           "work_riVKMT": {
             "type": "work",
             "settings": {
@@ -675,6 +689,7 @@
           }
         },
         "block_order": [
+          "work_4AQqAP",
           "work_riVKMT",
           "work_9pMm7G",
           "work_NgGqzm",
