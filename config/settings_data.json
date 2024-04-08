@@ -379,11 +379,25 @@
       "sub-section-portfolio-works": {
         "type": "sub-section-portfolio-works",
         "blocks": {
+          "work_NgGqzm": {
+            "type": "work",
+            "settings": {
+              "is-web": false,
+              "is-shopify": true,
+              "is-mobile": false,
+              "project-title": "Nuzira Collection Page",
+              "project-type": "shopify",
+              "project-desc": "Custom collection page of nuzira.com",
+              "project-url": "https:\/\/www.nuzira.com\/collections\/all",
+              "work-image-preview": "shopify:\/\/shop_images\/nuzira_collection.png",
+              "work-image-full": "shopify:\/\/shop_images\/nuzira_collection.png"
+            }
+          },
           "work_fdRVzG": {
             "type": "work",
             "settings": {
-              "is-web": true,
-              "is-shopify": false,
+              "is-web": false,
+              "is-shopify": true,
               "is-mobile": false,
               "project-title": "Aribike mega menu nav",
               "project-type": "shopify",
@@ -633,6 +647,7 @@
           }
         },
         "block_order": [
+          "work_NgGqzm",
           "work_fdRVzG",
           "work_6pyY7B",
           "d5b59f7d-64f8-4438-acdc-4a80f1e46ef1",
