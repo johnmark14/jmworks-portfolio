@@ -379,6 +379,20 @@
       "sub-section-portfolio-works": {
         "type": "sub-section-portfolio-works",
         "blocks": {
+          "work_fdRVzG": {
+            "type": "work",
+            "settings": {
+              "is-web": true,
+              "is-shopify": false,
+              "is-mobile": false,
+              "project-title": "Aribike mega menu nav",
+              "project-type": "shopify",
+              "project-desc": "Created this mega menu based on client design specification.",
+              "project-url": "",
+              "work-image-preview": "shopify:\/\/shop_images\/aribike_mega_menu_b0acc884-204a-4175-8866-c8e95cd428e3.png",
+              "work-image-full": "shopify:\/\/shop_images\/aribike_mega_menu_b0acc884-204a-4175-8866-c8e95cd428e3.png"
+            }
+          },
           "work_6pyY7B": {
             "type": "work",
             "settings": {
@@ -619,6 +633,7 @@
           }
         },
         "block_order": [
+          "work_fdRVzG",
           "work_6pyY7B",
           "d5b59f7d-64f8-4438-acdc-4a80f1e46ef1",
           "72ce08c9-7456-4e7d-987d-cf0ceab8f551",
