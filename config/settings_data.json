@@ -379,48 +379,6 @@
       "sub-section-portfolio-works": {
         "type": "sub-section-portfolio-works",
         "blocks": {
-          "work_9rPp36": {
-            "type": "work",
-            "settings": {
-              "is-web": true,
-              "is-shopify": true,
-              "is-mobile": false,
-              "project-title": "King and Fifth collection page",
-              "project-type": "shopify",
-              "project-desc": "filtered product shown on collection page.",
-              "project-url": "https:\/\/www.kingandfifth.com\/pages\/mens-beanies-and-hats",
-              "work-image-preview": "shopify:\/\/shop_images\/king_fith_collection_page.png",
-              "work-image-full": "shopify:\/\/shop_images\/king_fith_collection_page.png"
-            }
-          },
-          "work_4AQqAP": {
-            "type": "work",
-            "settings": {
-              "is-web": true,
-              "is-shopify": true,
-              "is-mobile": false,
-              "project-title": "fyrn product page",
-              "project-type": "web\/shopify",
-              "project-desc": "Fyrn custom product page | product builder",
-              "project-url": "https:\/\/fyrn.com\/products\/standard-chair?variant=39962569867331",
-              "work-image-preview": "shopify:\/\/shop_images\/fyrn_product_page.png",
-              "work-image-full": "shopify:\/\/shop_images\/fyrn_product_page.png"
-            }
-          },
-          "work_riVKMT": {
-            "type": "work",
-            "settings": {
-              "is-web": true,
-              "is-shopify": true,
-              "is-mobile": false,
-              "project-title": "fyrn collection page",
-              "project-type": "web\/shopify",
-              "project-desc": "Custom collection page for fyrn.com",
-              "project-url": "https:\/\/fyrn.com\/collections?filter=seating&collection=chairs",
-              "work-image-preview": "shopify:\/\/shop_images\/fyrn_collection_page.png",
-              "work-image-full": "shopify:\/\/shop_images\/fyrn_collection_page.png"
-            }
-          },
           "work_9pMm7G": {
             "type": "work",
             "settings": {
@@ -491,6 +449,34 @@
               "work-image-full": "shopify:\/\/shop_images\/11-full.png"
             }
           },
+          "work_9rPp36": {
+            "type": "work",
+            "settings": {
+              "is-web": true,
+              "is-shopify": true,
+              "is-mobile": false,
+              "project-title": "King and Fifth collection page",
+              "project-type": "shopify",
+              "project-desc": "filtered product shown on collection page.",
+              "project-url": "https:\/\/www.kingandfifth.com\/pages\/mens-beanies-and-hats",
+              "work-image-preview": "shopify:\/\/shop_images\/king_fith_collection_page.png",
+              "work-image-full": "shopify:\/\/shop_images\/king_fith_collection_page.png"
+            }
+          },
+          "work_riVKMT": {
+            "type": "work",
+            "settings": {
+              "is-web": true,
+              "is-shopify": true,
+              "is-mobile": false,
+              "project-title": "fyrn collection page",
+              "project-type": "web\/shopify",
+              "project-desc": "Custom collection page for fyrn.com",
+              "project-url": "https:\/\/fyrn.com\/collections?filter=seating&collection=chairs",
+              "work-image-preview": "shopify:\/\/shop_images\/fyrn_collection_page.png",
+              "work-image-full": "shopify:\/\/shop_images\/fyrn_collection_page.png"
+            }
+          },
           "72ce08c9-7456-4e7d-987d-cf0ceab8f551": {
             "type": "work",
             "settings": {
@@ -503,6 +489,20 @@
               "project-url": "https:\/\/www.qtllab.com\/pages\/order-courier",
               "work-image-preview": "shopify:\/\/shop_images\/02-full.png",
               "work-image-full": "shopify:\/\/shop_images\/02-preview.png"
+            }
+          },
+          "work_4AQqAP": {
+            "type": "work",
+            "settings": {
+              "is-web": true,
+              "is-shopify": true,
+              "is-mobile": false,
+              "project-title": "fyrn product page",
+              "project-type": "web\/shopify",
+              "project-desc": "Fyrn custom product page | product builder",
+              "project-url": "https:\/\/fyrn.com\/products\/standard-chair?variant=39962569867331",
+              "work-image-preview": "shopify:\/\/shop_images\/fyrn_product_page.png",
+              "work-image-full": "shopify:\/\/shop_images\/fyrn_product_page.png"
             }
           },
           "1096f9e1-4a18-4fe0-a519-df01382fc1ad": {
@@ -703,15 +703,15 @@
           }
         },
         "block_order": [
-          "work_9rPp36",
-          "work_4AQqAP",
-          "work_riVKMT",
           "work_9pMm7G",
           "work_NgGqzm",
           "work_fdRVzG",
           "work_6pyY7B",
           "d5b59f7d-64f8-4438-acdc-4a80f1e46ef1",
+          "work_9rPp36",
+          "work_riVKMT",
           "72ce08c9-7456-4e7d-987d-cf0ceab8f551",
+          "work_4AQqAP",
           "1096f9e1-4a18-4fe0-a519-df01382fc1ad",
           "f85552d1-c8d0-453d-b4d5-4684607b4066",
           "ac87bc81-b9e3-4e42-9c38-3d85e801e3b2",
