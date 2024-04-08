@@ -379,6 +379,20 @@
       "sub-section-portfolio-works": {
         "type": "sub-section-portfolio-works",
         "blocks": {
+          "work_6pyY7B": {
+            "type": "work",
+            "settings": {
+              "is-web": false,
+              "is-shopify": true,
+              "is-mobile": false,
+              "project-title": "Aribike Bike Builder",
+              "project-type": "shopify",
+              "project-desc": "Build this custom bike builder for aribike.com",
+              "project-url": "",
+              "work-image-preview": "shopify:\/\/shop_images\/aribike_builder_preview.png",
+              "work-image-full": "shopify:\/\/shop_images\/aribike_builder.png"
+            }
+          },
           "d5b59f7d-64f8-4438-acdc-4a80f1e46ef1": {
             "type": "work",
             "settings": {
@@ -605,6 +619,7 @@
           }
         },
         "block_order": [
+          "work_6pyY7B",
           "d5b59f7d-64f8-4438-acdc-4a80f1e46ef1",
           "72ce08c9-7456-4e7d-987d-cf0ceab8f551",
           "1096f9e1-4a18-4fe0-a519-df01382fc1ad",
