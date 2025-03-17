@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "colors_solid_button_labels": "#FFFFFF",
@@ -9,7 +18,7 @@
     "colors_background_2": "#F3F3F3",
     "type_header_font": "assistant_n4",
     "type_body_font": "assistant_n4",
-    "favicon": "shopify:\/\/shop_images\/fabicon.png",
+    "favicon": "shopify://shop_images/fabicon.png",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
@@ -26,8 +35,7 @@
         "block_order": [
           "announcement-bar-0"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "header": {
         "type": "header",
@@ -35,12 +43,12 @@
           "section-number": "01",
           "section-title": "welcome",
           "hero-text": "John Works",
-          "hero-image-top": "shopify:\/\/shop_images\/x1.png",
+          "hero-image-top": "shopify://shop_images/x1.png",
           "logo-text": "JWs",
           "nav-menu": "main-menu",
-          "facebook": "https:\/\/www.facebook.com\/gabrentinajohnmark",
-          "github": "https:\/\/github.com\/johnmark14",
-          "linkedin": "https:\/\/linkedin.com\/in\/john-mark"
+          "facebook": "https://www.facebook.com/gabrentinajohnmark",
+          "github": "https://github.com/johnmark14",
+          "linkedin": "https://linkedin.com/in/john-mark"
         }
       },
       "section-about": {
@@ -325,7 +333,7 @@
             "type": "cv",
             "settings": {
               "btn-text": "Download CV",
-              "btn-url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0405\/1540\/3930\/files\/Resume_John.pdf?v=1666533647"
+              "btn-url": "https://cdn.shopify.com/s/files/1/0405/1540/3930/files/Resume_John.pdf?v=1666533647"
             }
           },
           "3316552f-52fd-420c-8005-bb924345441a": {
@@ -340,8 +348,7 @@
           "d062fbae-de12-404d-bd90-69d63f70931d",
           "3316552f-52fd-420c-8005-bb924345441a"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "sub-section-portfolio-number-title": {
         "type": "sub-section-portfolio-number-title",
@@ -388,9 +395,9 @@
               "project-title": "salvationsun web form",
               "project-type": "web",
               "project-desc": "A custom interactive form.",
-              "project-url": "https:\/\/salvationsun.com\/get-solar",
-              "work-image-preview": "shopify:\/\/shop_images\/salvationsun.png",
-              "work-image-full": "shopify:\/\/shop_images\/salvationsun.png"
+              "project-url": "https://salvationsun.com/get-solar",
+              "work-image-preview": "shopify://shop_images/salvationsun.png",
+              "work-image-full": "shopify://shop_images/salvationsun.png"
             }
           },
           "work_NgGqzm": {
@@ -402,9 +409,9 @@
               "project-title": "Nuzira Collection Page",
               "project-type": "shopify",
               "project-desc": "Custom collection page of nuzira.com",
-              "project-url": "https:\/\/www.nuzira.com\/collections\/all",
-              "work-image-preview": "shopify:\/\/shop_images\/nuzira_collection.png",
-              "work-image-full": "shopify:\/\/shop_images\/nuzira_collection.png"
+              "project-url": "https://www.nuzira.com/collections/all",
+              "work-image-preview": "shopify://shop_images/nuzira_collection.png",
+              "work-image-full": "shopify://shop_images/nuzira_collection.png"
             }
           },
           "work_fdRVzG": {
@@ -413,12 +420,12 @@
               "is-web": false,
               "is-shopify": true,
               "is-mobile": false,
-              "project-title": "Aribike mega menu nav\/footer",
+              "project-title": "Aribike mega menu nav/footer",
               "project-type": "shopify",
               "project-desc": "Created this mega menu based on client design specification.",
-              "project-url": "https:\/\/aribikes.com",
-              "work-image-preview": "shopify:\/\/shop_images\/aribike_mega_menu_c68febef-0725-49e0-bb7f-63e87448d3d9.png",
-              "work-image-full": "shopify:\/\/shop_images\/aribike_mega_menu_b0acc884-204a-4175-8866-c8e95cd428e3.png"
+              "project-url": "https://aribikes.com",
+              "work-image-preview": "shopify://shop_images/aribike_mega_menu_c68febef-0725-49e0-bb7f-63e87448d3d9.png",
+              "work-image-full": "shopify://shop_images/aribike_mega_menu_b0acc884-204a-4175-8866-c8e95cd428e3.png"
             }
           },
           "work_6pyY7B": {
@@ -430,9 +437,9 @@
               "project-title": "Aribike Bike Builder",
               "project-type": "shopify",
               "project-desc": "Build this custom bike builder for aribike.com",
-              "project-url": "https:\/\/aribikes.com\/pages\/build?bike=delano-peak",
-              "work-image-preview": "shopify:\/\/shop_images\/aribike_builder_preview.png",
-              "work-image-full": "shopify:\/\/shop_images\/aribike_builder.png"
+              "project-url": "https://aribikes.com/pages/build?bike=delano-peak",
+              "work-image-preview": "shopify://shop_images/aribike_builder_preview.png",
+              "work-image-full": "shopify://shop_images/aribike_builder.png"
             }
           },
           "d5b59f7d-64f8-4438-acdc-4a80f1e46ef1": {
@@ -444,9 +451,9 @@
               "project-title": "Thermi brands store",
               "project-type": "shopify",
               "project-desc": "Ongoing. Developed this new store based on clients design & specification. The store is currently in development and will  be available before December ends.",
-              "project-url": "https:\/\/thermi-2-0.myshopify.com\/",
-              "work-image-preview": "shopify:\/\/shop_images\/11-preview.png",
-              "work-image-full": "shopify:\/\/shop_images\/11-full.png"
+              "project-url": "https://thermi-2-0.myshopify.com/",
+              "work-image-preview": "shopify://shop_images/11-preview.png",
+              "work-image-full": "shopify://shop_images/11-full.png"
             }
           },
           "work_9rPp36": {
@@ -458,9 +465,9 @@
               "project-title": "King and Fifth collection page",
               "project-type": "shopify",
               "project-desc": "filtered product shown on collection page.",
-              "project-url": "https:\/\/www.kingandfifth.com\/pages\/mens-beanies-and-hats",
-              "work-image-preview": "shopify:\/\/shop_images\/king_fith_collection_page.png",
-              "work-image-full": "shopify:\/\/shop_images\/king_fith_collection_page.png"
+              "project-url": "https://www.kingandfifth.com/pages/mens-beanies-and-hats",
+              "work-image-preview": "shopify://shop_images/king_fith_collection_page.png",
+              "work-image-full": "shopify://shop_images/king_fith_collection_page.png"
             }
           },
           "work_riVKMT": {
@@ -470,11 +477,11 @@
               "is-shopify": true,
               "is-mobile": false,
               "project-title": "fyrn collection page",
-              "project-type": "web\/shopify",
+              "project-type": "web/shopify",
               "project-desc": "Custom collection page for fyrn.com",
-              "project-url": "https:\/\/fyrn.com\/collections?filter=seating&collection=chairs",
-              "work-image-preview": "shopify:\/\/shop_images\/fyrn_collection_page.png",
-              "work-image-full": "shopify:\/\/shop_images\/fyrn_collection_page.png"
+              "project-url": "https://fyrn.com/collections?filter=seating&collection=chairs",
+              "work-image-preview": "shopify://shop_images/fyrn_collection_page.png",
+              "work-image-full": "shopify://shop_images/fyrn_collection_page.png"
             }
           },
           "72ce08c9-7456-4e7d-987d-cf0ceab8f551": {
@@ -486,9 +493,9 @@
               "project-title": "Customer Order Form",
               "project-type": "Web | Shopify",
               "project-desc": "Created a customer oder form for qtllab.com. This allows their customer to book a test. This was based on client design and specifications.",
-              "project-url": "https:\/\/www.qtllab.com\/pages\/order-courier",
-              "work-image-preview": "shopify:\/\/shop_images\/02-full.png",
-              "work-image-full": "shopify:\/\/shop_images\/02-preview.png"
+              "project-url": "https://www.qtllab.com/pages/order-courier",
+              "work-image-preview": "shopify://shop_images/02-full.png",
+              "work-image-full": "shopify://shop_images/02-preview.png"
             }
           },
           "work_4AQqAP": {
@@ -498,11 +505,11 @@
               "is-shopify": true,
               "is-mobile": false,
               "project-title": "fyrn product page",
-              "project-type": "web\/shopify",
+              "project-type": "web/shopify",
               "project-desc": "Fyrn custom product page | product builder",
-              "project-url": "https:\/\/fyrn.com\/products\/standard-chair?variant=39962569867331",
-              "work-image-preview": "shopify:\/\/shop_images\/fyrn_product_page.png",
-              "work-image-full": "shopify:\/\/shop_images\/fyrn_product_page.png"
+              "project-url": "https://fyrn.com/products/standard-chair?variant=39962569867331",
+              "work-image-preview": "shopify://shop_images/fyrn_product_page.png",
+              "work-image-full": "shopify://shop_images/fyrn_product_page.png"
             }
           },
           "1096f9e1-4a18-4fe0-a519-df01382fc1ad": {
@@ -514,9 +521,9 @@
               "project-title": "hijoey Training Cards",
               "project-type": "Shopify Custom Features",
               "project-desc": "Created a training carousel based on client design and specification. This card was tailored to work with hijoey store.",
-              "project-url": "https:\/\/hijoey.co\/pages\/training",
-              "work-image-preview": "shopify:\/\/shop_images\/01-preview.png",
-              "work-image-full": "shopify:\/\/shop_images\/01-full.png"
+              "project-url": "https://hijoey.co/pages/training",
+              "work-image-preview": "shopify://shop_images/01-preview.png",
+              "work-image-full": "shopify://shop_images/01-full.png"
             }
           },
           "f85552d1-c8d0-453d-b4d5-4684607b4066": {
@@ -528,9 +535,9 @@
               "project-title": "How it works",
               "project-type": "shopify",
               "project-desc": "Create a custom shopify how it works instruction. The design was based on client design & specifications",
-              "project-url": "https:\/\/hijoey.co\/collections\/all\/products\/starter-set",
-              "work-image-preview": "shopify:\/\/shop_images\/03-preview.png",
-              "work-image-full": "shopify:\/\/shop_images\/03-full.png"
+              "project-url": "https://hijoey.co/collections/all/products/starter-set",
+              "work-image-preview": "shopify://shop_images/03-preview.png",
+              "work-image-full": "shopify://shop_images/03-full.png"
             }
           },
           "ac87bc81-b9e3-4e42-9c38-3d85e801e3b2": {
@@ -542,9 +549,9 @@
               "project-title": "FAQ section",
               "project-type": "shopify",
               "project-desc": "Created an FAQ section based on client design & specification.",
-              "project-url": "https:\/\/hijoey.co\/collections\/all\/products\/starter-set",
-              "work-image-preview": "shopify:\/\/shop_images\/04-preview.png",
-              "work-image-full": "shopify:\/\/shop_images\/04-full.png"
+              "project-url": "https://hijoey.co/collections/all/products/starter-set",
+              "work-image-preview": "shopify://shop_images/04-preview.png",
+              "work-image-full": "shopify://shop_images/04-full.png"
             }
           },
           "92f2659b-15ed-4d42-be12-04f0d9754a3e": {
@@ -556,9 +563,9 @@
               "project-title": "Custom Product Page",
               "project-type": "shopify",
               "project-desc": "Modified this shopify product section based on client design & specification.",
-              "project-url": "https:\/\/hijoey.co\/collections\/all\/products\/starter-set",
-              "work-image-preview": "shopify:\/\/shop_images\/05-preview.png",
-              "work-image-full": "shopify:\/\/shop_images\/05-full.png"
+              "project-url": "https://hijoey.co/collections/all/products/starter-set",
+              "work-image-preview": "shopify://shop_images/05-preview.png",
+              "work-image-full": "shopify://shop_images/05-full.png"
             }
           },
           "6c5271d5-db10-4daa-9747-4effd0a16ead": {
@@ -570,9 +577,9 @@
               "project-title": "Collection Promo Banner",
               "project-type": "shopify",
               "project-desc": "Created this promotional banner to the collection page based on client design & specification.",
-              "project-url": "https:\/\/our-first-spark.myshopify.com\/collections\/name-necklace",
-              "work-image-preview": "shopify:\/\/shop_images\/06-preview.png",
-              "work-image-full": "shopify:\/\/shop_images\/06-full.png"
+              "project-url": "https://our-first-spark.myshopify.com/collections/name-necklace",
+              "work-image-preview": "shopify://shop_images/06-preview.png",
+              "work-image-full": "shopify://shop_images/06-full.png"
             }
           },
           "77f2a82b-53d5-4a21-95d2-4d6ee85755cb": {
@@ -584,9 +591,9 @@
               "project-title": "Custom Collection Cards",
               "project-type": "shopify",
               "project-desc": "Created this custom collection cards based on client design and specifications.",
-              "project-url": "https:\/\/our-first-spark.myshopify.com\/collections\/name-necklace",
-              "work-image-preview": "shopify:\/\/shop_images\/07-preview.png",
-              "work-image-full": "shopify:\/\/shop_images\/07-full.png"
+              "project-url": "https://our-first-spark.myshopify.com/collections/name-necklace",
+              "work-image-preview": "shopify://shop_images/07-preview.png",
+              "work-image-full": "shopify://shop_images/07-full.png"
             }
           },
           "f6810101-3eb8-4abb-aeaf-b787d8a95a5a": {
@@ -598,9 +605,9 @@
               "project-title": "Customizable Product with Text Preview",
               "project-type": "shopify",
               "project-desc": "Created this customizable product page, which let client customers to preview the custom text. This is based on client design and specifications.",
-              "project-url": "https:\/\/our-first-spark.myshopify.com\/collections\/name-necklace\/products\/personalized-name-necklace",
-              "work-image-preview": "shopify:\/\/shop_images\/08-preview.png",
-              "work-image-full": "shopify:\/\/shop_images\/08-full.png"
+              "project-url": "https://our-first-spark.myshopify.com/collections/name-necklace/products/personalized-name-necklace",
+              "work-image-preview": "shopify://shop_images/08-preview.png",
+              "work-image-full": "shopify://shop_images/08-full.png"
             }
           },
           "d83b1369-dc12-41a8-ace0-0d20222c574c": {
@@ -612,9 +619,9 @@
               "project-title": "Product Suggestion",
               "project-type": "shopify",
               "project-desc": "Created this product suggestion based on the most viewed product of the site, then when clicked shows a pop up dialog. This was based on clients design & specificaton.",
-              "project-url": "https:\/\/our-first-spark.myshopify.com\/collections\/name-necklace\/products\/personalized-name-necklace",
-              "work-image-preview": "shopify:\/\/shop_images\/08-preview.png",
-              "work-image-full": "shopify:\/\/shop_images\/09-full.png"
+              "project-url": "https://our-first-spark.myshopify.com/collections/name-necklace/products/personalized-name-necklace",
+              "work-image-preview": "shopify://shop_images/08-preview.png",
+              "work-image-full": "shopify://shop_images/09-full.png"
             }
           },
           "105e3533-01cf-41ea-a156-e0836d539814": {
@@ -626,9 +633,9 @@
               "project-title": "Customizable Product",
               "project-type": "shopify",
               "project-desc": "Created this unique feature for product page that let client add a picture to a neclace product and also engrave a text to the product. This was based on client design & specification.",
-              "project-url": "https:\/\/our-first-spark.myshopify.com\/collections\/photo-necklace\/products\/custom-photo-name-necklace",
-              "work-image-preview": "shopify:\/\/shop_images\/10-preview.png",
-              "work-image-full": "shopify:\/\/shop_images\/10-full.png"
+              "project-url": "https://our-first-spark.myshopify.com/collections/photo-necklace/products/custom-photo-name-necklace",
+              "work-image-preview": "shopify://shop_images/10-preview.png",
+              "work-image-full": "shopify://shop_images/10-full.png"
             }
           },
           "ef791773-ce3f-41f8-bd76-c402c856a2d5": {
@@ -640,9 +647,9 @@
               "project-title": "Natours Web Design",
               "project-type": "web",
               "project-desc": "A web design project.",
-              "project-url": "https:\/\/github.com\/johnmark14\/Natours-Website-Project",
-              "work-image-preview": "shopify:\/\/shop_images\/12-preview.png",
-              "work-image-full": "shopify:\/\/shop_images\/12-full.png"
+              "project-url": "https://github.com/johnmark14/Natours-Website-Project",
+              "work-image-preview": "shopify://shop_images/12-preview.png",
+              "work-image-full": "shopify://shop_images/12-full.png"
             }
           },
           "271b63f3-eac5-4ec4-a6d2-7cbeae080ec9": {
@@ -654,9 +661,9 @@
               "project-title": "Nexter web design project",
               "project-type": "web",
               "project-desc": "A web design project.",
-              "project-url": "https:\/\/github.com\/johnmark14\/nexter",
-              "work-image-preview": "shopify:\/\/shop_images\/13-preview.png",
-              "work-image-full": "shopify:\/\/shop_images\/13-full.png"
+              "project-url": "https://github.com/johnmark14/nexter",
+              "work-image-preview": "shopify://shop_images/13-preview.png",
+              "work-image-full": "shopify://shop_images/13-full.png"
             }
           },
           "4d2ea141-e456-40f1-8108-87983cdd40f9": {
@@ -668,9 +675,9 @@
               "project-title": "A Fancy BMI app",
               "project-type": "mobile",
               "project-desc": "A mobile app design",
-              "project-url": "https:\/\/github.com\/johnmark14\/fancy_bmi_app",
-              "work-image-preview": "shopify:\/\/shop_images\/14-preview.png",
-              "work-image-full": "shopify:\/\/shop_images\/14-full.png"
+              "project-url": "https://github.com/johnmark14/fancy_bmi_app",
+              "work-image-preview": "shopify://shop_images/14-preview.png",
+              "work-image-full": "shopify://shop_images/14-full.png"
             }
           },
           "e6598264-4ea9-4d1e-82fd-5e58d5194975": {
@@ -682,9 +689,9 @@
               "project-title": "Flash Chat",
               "project-type": "mobile",
               "project-desc": "A chat app mobile design.",
-              "project-url": "https:\/\/github.com\/johnmark14\/flash-chat-app-design",
-              "work-image-preview": "shopify:\/\/shop_images\/15-preview.png",
-              "work-image-full": "shopify:\/\/shop_images\/15-preview.png"
+              "project-url": "https://github.com/johnmark14/flash-chat-app-design",
+              "work-image-preview": "shopify://shop_images/15-preview.png",
+              "work-image-full": "shopify://shop_images/15-preview.png"
             }
           },
           "1e891457-8a52-44ff-baae-bf7b5adf1376": {
@@ -696,9 +703,9 @@
               "project-title": "Side Project CV Page",
               "project-type": "Side Project",
               "project-desc": "This is a side project I built on my free time",
-              "project-url": "https:\/\/johnmark14.github.io\/Resume-CV-Page\/index.html",
-              "work-image-preview": "shopify:\/\/shop_images\/screenshot.png",
-              "work-image-full": "shopify:\/\/shop_images\/screenshot.png"
+              "project-url": "https://johnmark14.github.io/Resume-CV-Page/index.html",
+              "work-image-preview": "shopify://shop_images/screenshot.png",
+              "work-image-full": "shopify://shop_images/screenshot.png"
             }
           }
         },
@@ -772,7 +779,7 @@
         "settings": {
           "section-number": "05",
           "section-text": "Contact",
-          "profile-photo": "shopify:\/\/shop_images\/spiralbetty_1638020674238.png",
+          "profile-photo": "shopify://shop_images/spiralbetty_1638020674238.png",
           "primary-email": "johnmarkgabrentina@gmail.com",
           "contact": "(+63) 956 933 5623",
           "location": "Barcelona, Sorsogon, 4712, Philippines",
@@ -784,14 +791,12 @@
       "footer": {
         "type": "footer",
         "settings": {
-          "text-left": "John Works 2021",
+          "text-left": "JohnWorks 2025",
           "nav-menu": "footer"
         }
       }
     },
-    "content_for_index": [
-
-    ]
+    "content_for_index": []
   },
   "presets": {
     "Default": {
@@ -818,8 +823,7 @@
           "block_order": [
             "announcement-bar-0"
           ],
-          "settings": {
-          }
+          "settings": {}
         }
       }
     }
